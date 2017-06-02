@@ -1,0 +1,966 @@
+@font-face {
+    font-family: "comic";
+    src: url("../../fonts/IHATCS__.TTF");
+}
+
+@font-face {
+    font-family: "pasto";
+    src: url("../../fonts/Gravity-Book.OTF");
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #271300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "comic";
+    color: #3A1B02;
+}
+
+a,
+a:visited {
+    color: inherit !important;
+}
+
+.modal-dialog {
+    border: 2px solid #FF6620;
+    border-radius: 5px;
+}
+
+.modal-content img {
+    width: 100%;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgba(11, 113, 21, 0.8);
+    border: 2px solid #FF6620;
+    border-radius: 5px;
+}
+
+.modal-footer .fa-cloud-download,
+.fa-star,
+.close {
+    color: #FF6620;
+}
+
+.modal-footer .fa-cloud-download:hover,
+.fa-star:hover {
+    color: rgba(255, 102, 32, 0.5);
+    text-shadow: 1px 1px 2px #000;
+}
+
+.header {
+    background: #054312;
+    height: 350px;
+}
+
+.header.menuType2 .header_content>ul>li {
+    background-color: #054312;
+}
+
+.header ul.nav>li a {
+    color: #fff !important;
+    font-family: "comic" !important;
+    font-size: 15px !important;
+}
+
+.header ul.nav>li a.active {
+    color: aqua !important;
+}
+
+.header ul.nav>li a:hover {
+    color: inherit !important;
+    color: darkorange !important;
+}
+
+.logo_f a img:first-child {
+    position: inherit;
+    margin-left: 90px;
+    width: 105%;
+    z-index: 200;
+    top: inherit;
+}
+
+.logo_f a img:nth-child(2) {
+    width: 130px;
+    height: 85px;
+}
+
+
+/* contenue modifier*/
+
+
+/*.menu_f {
+    margin-left: 200px;
+}*/
+
+.contactusForm .dashedBorder {
+    background-color: rgba(4, 64, 4, 0.75);
+    color: #fff;
+}
+
+#email_submit {
+    color: #fff !important;
+}
+
+.font_awesome img {
+    width: 50px;
+}
+
+.font_awesome li a {
+    border: none;
+}
+
+.header ul.nav>li a:hover {
+    color: darkorange !important;
+}
+
+.logo_f a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    z-index: 502;
+}
+
+.masquotte {
+    position: fixed;
+    top: 199px;
+    left: 25px;
+    height: 200px !important;
+    z-index: 501;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-transform: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-ms-keyframes spin {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+    40% {
+        -ms-transform: rotate(-4deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    40% {
+        -moz-transform: rotate(-4deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    40% {
+        -webkit-transform: rotate(-4deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+}
+
+.corde {
+    position: fixed !important;
+    top: 200px;
+    height: 5px;
+    width: 17000px;
+    z-index: 501;
+    background-image: url('../../assets/cable.jpg');
+    background-size: cover;
+    /*    -webkit-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+    -o-transform:rotate(2deg);
+    -ms-transform:rotate(2deg);*/
+}
+
+
+/*// contenu page //*/
+
+.mCSB_container {
+    background-color: dodgerblue;
+}
+
+
+/*// page 1 //*/
+
+
+/*.video_forest {
+    z-index: 52 !important;
+}*/
+
+
+/*// page 2 //*/
+
+.bg_forest {
+    height: 700px;
+}
+
+.overlayBg.dark {
+    background-color: inherit !important;
+    height: 100%;
+}
+
+
+/*.documentation_f {
+    background-color: cornflowerblue !important;
+    background-image: url(../../assets/foret/colorisation012.3.png) !important;
+}
+    */
+
+
+/*// page 3 //*/
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: none !important;
+    margin-top: -40px;
+}
+
+.description .image0 {
+    width: 31% !important;
+}
+
+.description .image1 {
+    width: 31%;
+}
+
+.logo_f2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.description .image0bis {
+    width: 320px;
+    height: 120px;
+}
+
+.preload {
+    width: 60%;
+}
+
+.img-saut {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
+
+.actu {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1%;
+}
+
+.documentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.documentation section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.documentation article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 34.375em;
+}
+
+.documentation img {
+    margin-right: 1%;
+}
+
+.prix img {
+    width: 20%;
+}
+
+
+/*FOrmule*/
+
+.doc-formule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255, 115, 0, 0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 35%;
+    border-radius: 2%;
+}
+
+.doc-form-sec {
+    margin-left: -80px;
+}
+
+.doc-form-sec img {
+    width: 50px;
+    height: 50px;
+}
+
+.formule {
+    font-family: "comic";
+    color: #FF7300;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form {
+    font-size: 16px;
+}
+
+.footer-doc-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #FF7300;
+}
+
+.footer-doc-form p {
+    font-size: 13px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+
+/*Formule1*/
+
+.doc-formule1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(124, 178, 0, 0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 40%;
+    border-radius: 2%;
+}
+
+.doc-form1-sec {
+    margin-left: -120px;
+    margin-top: -10px;
+}
+
+.doc-form1-sec img {
+    width: 50px;
+    height: 50px;
+    margin-left: 22px;
+}
+
+.formule1 {
+    font-family: "comic";
+    color: #7CB200;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form1 {
+    font-size: 13px;
+    margin-top: -2px;
+}
+
+.footer-doc-form1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #7CB200;
+    height: 50px;
+}
+
+.footer-doc-form1 p {
+    font-size: 13px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+
+/*Formule2*/
+
+.doc-formule2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(1, 102, 255, 0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 40%;
+    border-radius: 5%;
+}
+
+.doc-form2-sec {
+    margin-left: -100px;
+    margin-top: -10px;
+}
+
+.doc-form2-sec img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.formule2 {
+    font-family: "comic";
+    color: #0166FF;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form2 {
+    font-size: 11px;
+    margin-top: -2px;
+}
+
+.footer-doc-form2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #0166FF;
+    height: 50px;
+}
+
+.footer-doc-form2 p {
+    font-size: 13px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+
+/*Formule3*/
+
+.doc-formule3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 35%;
+    border-radius: 2%;
+}
+
+.doc-form3-sec {
+    margin-left: -90px;
+    margin-top: -10px;
+}
+
+.doc-form3-sec img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.formule3 {
+    font-family: "comic";
+    color: #FF0000;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form3 {
+    font-size: 14px;
+    margin-top: -2px;
+}
+
+.footer-doc-form3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #FF0000;
+    height: 50px;
+}
+
+.footer-doc-form3 p {
+    font-size: 13px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+
+/*Formule4*/
+
+.doc-formule4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 1%;
+    margin-bottom: 20px;
+    padding: 1%;
+    height: 25%;
+    border-radius: 2%;
+}
+
+.doc-form4-sec {
+    margin-left: -40px;
+    margin-top: -10px;
+}
+
+.doc-form4-sec img {
+    width: 50px;
+    height: 50px;
+    margin-left: 27px;
+}
+
+.formule4 {
+    font-family: "comic";
+    color: #000;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.descrip-form4 {
+    font-size: 14px;
+    margin-top: -2px;
+}
+
+.lien-reserv {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
+}
+
+.documentation a {
+    color: #FF6620 !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic";
+}
+
+.documentation a:hover {
+    color: rgba(255, 102, 32, 0.5);
+    text-shadow: 1px 1px 2px #000;
+}
+
+.parcours {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 18%;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.laser {
+    width: 50%;
+    cursor: pointer;
+}
+
+.options {
+    width: 1000px;
+    height: 450px;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
+}
+
+.sec_options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.sec_options article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1%;
+    padding: 1%;
+    width: 50%;
+}
+
+.options a {
+    color: #FF6620 !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic";
+}
+
+.options a:hover {
+    color: rgba(255, 102, 32, 0.5);
+    text-shadow: 1px 1px 2px #000;
+}
+
+.organisation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 380px;
+    background-color: rgba(203, 18, 110, 0.5);
+    border-radius: 2%;
+}
+
+.organisation p {
+    font-size: 16px;
+    color: #000;
+}
+
+.reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 380px;
+    background-color: rgba(19, 123, 253, 0.5);
+    border-radius: 2%;
+    margin: 1%;
+}
+
+.options .organisation h3 {
+    color: #D71374 !important;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.options .reservation h3 {
+    color: #137BFD;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.options .reservation p {
+    font-size: 12px;
+    margin-top: -13px;
+    color: #000;
+}
+
+.options .reservation a {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.formules-anniv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 380px;
+    background-color: rgba(70, 229, 3, 0.5);
+    border-radius: 2%;
+}
+
+.formules-anniv h3 {
+    font-size: 26px;
+    color: #46E503;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.form-anniv-accro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #237201;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-anniv-accro:hover {
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-anniv-accro p {
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-anniv-laser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #9D0A0F;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-anniv-laser:hover {
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-anniv-laser p {
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-anniv-pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #F87103;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-anniv-pass:hover {
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-anniv-pass p {
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.groupes {
+    width: 900px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
+    margin-left: 15%;
+}
+
+.grp-ado-titre {
+    width: 100%;
+    padding: 1%;
+}
+
+.grp-ado-titre h3 {
+    text-align: center;
+    font-family: "comic";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grp-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.grp-sec h3 {
+    font-size: 20px;
+}
+
+.formule-ado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(255, 115, 0, 0.5);
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.form-accro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #237201;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-accro:hover {
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-accro p {
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+}
+
+.form-accro p:hover {
+    font-size: 20px;
+}
+
+.form-laser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #9D0A0F;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-laser:hover {
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-laser p {
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+}
+
+.form-laser p:hover {
+    font-size: 20px;
+}
+
+.form-pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #F87103;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-pass:hover {
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-pass p {
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+}
+
+.form-pass p:hover {
+    font-size: 20px;
+}
+
+.formule-adulte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(63, 0, 254, 0.5);
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.formule-edv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(60, 206, 7, 0.5);
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.groupes a {
+    color: #FF6620 !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic";
+}
+
+.groupes a:hover {
+    color: rgba(255, 102, 32, 0.5);
+    text-shadow: 1px 1px 2px #000;
+}
+
+.contactPage {
+    z-index: 502;
+}
+
+
+/*// footer //*/
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 100, 10, 0.6);
+    bottom: 0;
+    width: 100%;
+    z-index: 600;
+    padding: 0.5%;
+}
+
+.foo {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.foo img {
+    height: 32px;
+    align-items: center;
+}
+
+.foo img:hover {
+    border-radius: 30px;
+    box-shadow: 3px 3px 1px rgba(10, 10, 10, 0.8);
+}
+
+footer .col-md-4:nth-child(3) {
+    margin-left: 12px;
+    width: 40px
+}
+
+footer .col-md-4 {
+    bottom: 5px;
+}
