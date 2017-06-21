@@ -281,6 +281,10 @@ a:visited {
     padding: 1%;
 }
 
+.infoactu{
+    font-size: 24px;
+}
+
 .documentation {
     display: flex;
     justify-content: center;
