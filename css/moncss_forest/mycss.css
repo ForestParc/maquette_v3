@@ -140,7 +140,7 @@ a:visited {
 
 .masquotte {
     position: fixed;
-    top: 199px;
+    top: 189px;
     left: 25px;
     height: 200px !important;
     z-index: 501;
@@ -188,7 +188,7 @@ a:visited {
 
 .corde {
     position: fixed !important;
-    top: 200px;
+    top: 190px;
     height: 5px;
     width: 17000px;
     z-index: 501;
