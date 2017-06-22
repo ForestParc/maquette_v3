@@ -1502,7 +1502,7 @@ If you need this button just remove the comment code
 
                 <div class="top_space"> </div>
 
-                <div class="bg_forest container-fluid removePadding fullWidth fullResponse parallax" data-src="assets/foret/bg_forest_3.png" data-src-small="assets/foret/bg_forest_3.png" data-animated-in="animated fadeInUp" data-animated-time="15">
+                <div class="bg_forest container-fluid removePadding fullWidth fullResponse parallax" data-src="assets/foret/bg_forest_3.png" data-src-small="assets/foret/bg_forest_3.png" >
                     <div class="row-fluid">
                         <div class="span12 textAlignCenter relativePos">
                             <h2 class="remove_bottomPadding white_color"><img src="assets/formules/img/FORMULES2017/flyer-laser.png" class="laser" alt="" data-toggle="modal" data-target=".bs-example-modal-lgimg22"></h2>
@@ -1516,7 +1516,7 @@ If you need this button just remove the comment code
 
                 <div class="top_space"> </div>
 
-                <div class="bg_forest container-fluid removePadding fullWidth fullResponse parallax" data-src="assets/foret/bg_forest_4.png" data-src-small="assets/foret/bg_forest_4.png" data-animated-in="animated fadeInUp" data-animated-time="15">
+                <div class="bg_forest container-fluid removePadding fullWidth fullResponse parallax" data-src="assets/foret/bg_forest_4.png" data-src-small="assets/foret/bg_forest_4.png">
                     <div class="row-fluid">
                         <div class="span12 textAlignCenter relativePos">
                             <h2 class="remove_bottomPadding white_color"><i class="fa fa-birthday-cake fa-2x" aria-hidden="true"></i> ANNIVERSAIRES</h2>
@@ -1572,7 +1572,7 @@ If you need this button just remove the comment code
 
                 <div class="top_space"> </div>
 
-                <div class="bg_forest container-fluid removePadding fullWidth fullResponse parallax" data-src="assets/foret/bg_forest_1.png" data-src-small="assets/foret/bg_forest_1.png" data-animated-in="animated fadeInUp" data-animated-time="15">
+                <div class="bg_forest container-fluid removePadding fullWidth fullResponse parallax" data-src="assets/foret/bg_forest_1.png" data-src-small="assets/foret/bg_forest_1.png">
                     <div class="row-fluid">
                         <div class="span12 textAlignCenter relativePos">
                             <h2 class="remove_bottomPadding white_color">
@@ -1678,7 +1678,6 @@ If you need this button just remove the comment code
                                 <!-- Google map position is defined in custom.min.js file near the // Google map Code // comment line
                     the google.maps.LatLng variable is used to set the location of the map -->
                                 <!-- <div id="map_canvas">
-
                                     <!--Google map load error message-->
                                     <!-- <a class="openGoogleMap"><i class="fa  fa-map-marker fa-1x"></i>  <strong>Click to see Map Location</strong> </a>
                                 </div> -->
@@ -1828,8 +1827,6 @@ If you need this button just remove the comment code
 
     <script type="text/javascript">
         $(document).ready(function() {
-
-
             /* Twitter initilize */
             $(function() {
                 // start jqtweet!
@@ -1837,28 +1834,20 @@ If you need this button just remove the comment code
                     numTweets: 3
                 });
             });
-
-
             /* Site Main plug-in initilize */
             jQuery(function($) {
                 $("body").mainFm({
-
                     /* Set the opening page.
                     leave it blank value if you need to show the home page as a opening page*/
                     currentPage: "!home",
-
                     /* FlexSlider slideshow speed */
                     slideshowSpeed: 5000
-
                 });
             });
-
-
             // Initialize Portfolio mixitup plugin
             $(function() {
                 $('.portfolio_items').mixitup();
             });
-
             // Portfolio Filterable gallery project detail plug-in initialize
             $("body").find(".portfolioPage").each(function() {
                 var mc = $(this);
@@ -1868,7 +1857,6 @@ If you need this button just remove the comment code
                     })
                 });
             });
-
             /* Home page Slider */
             $("body").find(".slider1").each(function() {
                 var mc = $(this);
@@ -1885,14 +1873,11 @@ If you need this button just remove the comment code
                     });
                 });
             });
-
             // Email submit action
             $("#email_submit").click(function() {
-
                 $('#reply_message').removeClass();
                 $('#reply_message').html('')
                 var regEx = "";
-
                 // validate Name
                 var name = $("input#name").val();
                 regEx = /^[A-Za-z .'-]+$/;
@@ -1901,7 +1886,6 @@ If you need this button just remove the comment code
                     $("input#name").focus();
                     return false;
                 }
-
                 // validate Email
                 var email = $("input#email").val();
                 regEx = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
@@ -1910,7 +1894,6 @@ If you need this button just remove the comment code
                     $("input#email").focus();
                     return false;
                 }
-
                 // validate comment
                 var comments = $("textarea#comments").val();
                 if (comments == "" || comments == "Comments..." || comments.length < 2) {
@@ -1918,10 +1901,8 @@ If you need this button just remove the comment code
                     $("textarea#comments").focus();
                     return false;
                 }
-
                 var dataString = 'name=' + $("input#name").val() + '&email=' + $("input#email").val() + '&comments=' + $("textarea#comments").val();
                 $('#reply_message').addClass('email_loading');
-
                 // Send form data to mailer.php
                 $.ajax({
                     type: "POST",
@@ -1937,9 +1918,7 @@ If you need this button just remove the comment code
                 });
                 return false;
             });
-
         });
-
     </script>
 
 </body>
