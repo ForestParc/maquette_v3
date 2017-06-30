@@ -1,0 +1,61 @@
+/*SMARTPHONE */
+
+@media only screen and (min-width: 321px) {
+    .bg_forest {
+        background-color: dodgerblue !important;
+    }
+    .logo_f a img:first-child {
+        width: 30%;
+        margin-left: inherit;
+        right: 50px;
+    }
+    .logo_f a img:nth-child(2) {
+        width: 20%;
+    }
+    .masquotte {
+        display: none;
+    }
+    .corde {
+        display: none;
+    }
+    p {
+        font-size: 10px;
+    }
+    #char_1 img {
+        height: 50px;
+        width: 50px;
+    }
+    /* logo forest contact  */
+    .bold_weight img {
+        height: 100px;
+        width: 300px;
+    }
+    /* bouton slider*/
+    .navigations {
+        bottom: 20px !important;
+    }
+    .footer {}
+    .laser {
+        width: 50%;
+        position: relative;
+        top: 20px;
+    }
+    .parcours {
+        height: 400px;
+        width: 90%;
+        margin-left: inherit;
+    }
+    .parcours img {
+        width: 580px;
+        height: 350px;
+    }
+    .contactPage {
+        background-color: dodgerblue !important;
+    }
+    h5 {
+        font-size: 60px;
+    }
+    .item_feature.no_border {
+        font-size: 25px;
+    }
+}
