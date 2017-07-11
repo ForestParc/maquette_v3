@@ -1,0 +1,295 @@
+/*SMARTPHONE */
+
+@media only screen and (max-width: 381px) {
+    .fa-2x {
+	font-size: 
+        inherit;
+}
+    
+    .bg_forest {
+        background-color: dodgerblue !important;
+    }
+    /*logo nav*/
+    .logo_f a img:first-child {
+        width: 35%;
+        margin-left: inherit;
+        right: 50px;
+    }
+    .logo_f a img:nth-child(2) {
+        width: 22%;
+        height: 10%;
+        position: relative;
+        right: 50px;
+    }
+    /*img presentation*/
+    .image0bis {
+        width: 120px !important;
+        height: 80px !important;
+    }
+    .img-saut {
+        height: 120px;
+    }
+    .home_img img {
+        height: 80px;
+    }
+    .logo_f2 {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    /*footer*/
+    .foo i {
+        left: 30px;
+        margin: 3px;
+        position: relative;
+    }
+    .masquotte {
+        display: none;
+    }
+    .corde {
+        display: none;
+    }
+    p {
+        font-size: 10px;
+    }
+    #char_1 img {
+        height: 50px;
+        width: 50px;
+    }
+    /* logo forest contact  */
+    .bold_weight img {
+        height: 100px;
+        width: 300px;
+    }
+    .contactPage {
+        background-color: dodgerblue !important;
+    }
+    /* bouton slider*/
+    .navigations {
+        bottom: 20px !important;
+    }
+    .fmslider_dots li a>span {
+        background-color: darkgreen;
+    }
+    .fmEmbossBtn {
+        background-color: darkgreen;
+    }
+    /*FORMULE ET TARIF*/
+    .FM_md {
+        position: absolute;
+        bottom: 99%;
+        left: 60px;
+    }
+    .formule,
+    .formule1,
+    .formule2,
+    .formule3,
+    .formule4,
+    .formule5 {
+        font-size: 16px;
+    }
+    .documentation {
+        display: block;
+    }
+    /*.documentation img {
+        display: none;
+    }*/
+    .descrip-form,
+    .descrip-form1,
+    .descrip-form2,
+    .descrip-form3,
+    .descrip-form4 {
+        position: relative;
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .descrip-form1 {
+        bottom: 5px;
+    }
+    .descrip-form2 {
+        bottom: 5px;
+    }
+    .doc-formule,
+    .doc-formule1,
+    .doc-formule2,
+    .doc-formule3,
+    .doc-formule4 {
+        position: relative;
+    }
+    .doc-formule {
+        height: 80px;
+        bottom: 120px;
+    }
+    .doc-formule1 {
+        height: 110px;
+        bottom: 122px;
+    }
+    .doc-formule2 {
+        height: 109px;
+        bottom: 124px;
+    }
+    .doc-formule3 {
+        height: 108px;
+        bottom: 347px;
+    }
+    .doc-formule4 {
+        height: 67px;
+        bottom: 348px;
+    }
+    .footer-doc-form,
+    .footer-doc-form1,
+    .footer-doc-form2,
+    .footer-doc-form3,
+    .footer-doc-form4 {
+        height: 49px;
+    }
+    .footer-doc-form p,
+    .footer-doc-form1 p,
+    .footer-doc-form2 p,
+    .footer-doc-form3 p,
+    .footer-doc-form4 p {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .documentation .lien-reserv {
+        position: relative;
+        bottom: 360px;
+    }
+    .doc-form-sec img,
+    .doc-form1-sec img,
+    .doc-form2-sec img,
+    .doc-form3-sec img,
+    .doc-form4-sec img {
+        width: 40px;
+        height: 40px;
+    }
+    .doc-form4-sec {
+        position: relative;
+        right: 30px;
+    }
+    /*LASER*/
+    .laser {
+        width: 70%;
+        position: relative;
+        top: 80px;
+        box-shadow: 1.5px 1.5px 9px black;
+    }
+    .parcours {
+        width: 90%;
+        margin: inherit;
+    }
+    .parcours img {
+        width: 290px;
+        height: 200px;
+    }
+    h5 {
+        font-size: 30px;
+    }
+    .item_feature.no_border {
+        font-size: 20px;
+    }
+    /*ANNIVERSAIRE*/
+    .sec_options {
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .sec_options article {
+        width: 95%;
+        height: 70%;
+    }
+    .options {
+        width: 70%;
+           background-color: 
+            transparent
+            ;
+    }
+    
+    .organisation {
+	background-color: 
+        rgba(225, 131, 178, 0.68);
+}
+    
+    
+    .organisation p {
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .organisation h3{
+	line-height: 
+        12px;
+}
+    
+    
+    .reservation {
+        background-color: 
+            rgba(104, 163, 236, 0.77);
+}
+    
+    .reservation p {
+	line-height: 
+        12px;
+}
+    .formules-anniv .lien-reserv p {
+        line-height: 
+            12px;
+    }
+    
+    .form-anniv-laser p,
+    .form-anniv-accro p,
+    .form-anniv-pass p {
+        font-size: 13px;
+    }
+    .form-anniv-accro,
+    .form-anniv-laser,
+    .form-anniv-pass {
+        height: 35px;
+        position: relative;
+        padding: 
+            2px;
+    }
+    /*GROUPES*/
+    .grp-ado-titre h2{
+	font-size: 
+        20px !important;
+}
+    .grp-ado-titre h3 {
+        font-size: 
+            15px !important;
+    }
+     .grp-ado-titre h4 {
+        font-size: 
+            15px !important;
+    }
+    
+    .grp-sec {
+        width: 
+            900px !important;
+	display: 
+        flex
+        ;
+        flex-direction: 
+            column
+            ;
+        align-items: inherit !important;
+}
+    .groupes {
+	width: 
+        270px;
+        
+}
+    .form-accro p, .form-laser p, .form-pass p {
+        font-size: 
+            medium;
+        position: 
+            relative
+            ;
+        top: 
+            8px;
+    }
+    
+    
+    
+    /*FOOTER*/
+}
+
