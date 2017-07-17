@@ -45,6 +45,9 @@
 	font-size: 
         inherit;
 }
+    .fa-star {
+        display: none !important;
+    }
     
     .bg_forest {
         background-color: dodgerblue !important;
