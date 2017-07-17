@@ -1,6 +1,46 @@
+
 /*SMARTPHONE */
 
+
 @media only screen and (max-width: 381px) {
+    /*loader*/
+    
+    .loader div {
+    display: flex;
+    justify-content: space-between;
+        
+        
+}
+.arbre_load {
+    flex-direction: row;
+    position: absolute;
+    top: 480px;
+       height: 130px;
+        width: 120px;
+}
+.forest_load {
+    position: absolute;
+    height: 60px;
+    width: 80px;    
+    top: 110px;
+}   
+.parcours_load {
+    position: absolute;
+    height: 40px;
+    width: 60px;    
+    top: 420px;
+    left: 150px;
+} 
+.lazer_load {
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    top: 220px;
+    left: 150px;
+}
+
+    /*loader*/
+    
     .fa-2x {
 	font-size: 
         inherit;
@@ -9,6 +49,7 @@
     .bg_forest {
         background-color: dodgerblue !important;
     }
+    
     /*logo nav*/
     .logo_f a img:first-child {
         width: 35%;
@@ -21,6 +62,7 @@
         position: relative;
         right: 50px;
     }
+    
     /*img presentation*/
     .image0bis {
         width: 120px !important;
@@ -37,6 +79,7 @@
         border-radius: 20px;
         margin-bottom: 20px;
     }
+    
     /*footer*/
     .foo i {
         left: 30px;
@@ -52,10 +95,8 @@
     p {
         font-size: 10px;
     }
-    #char_1 img {
-        height: 50px;
-        width: 50px;
-    }
+   
+    
     /* logo forest contact  */
     .bold_weight img {
         height: 100px;
@@ -64,6 +105,7 @@
     .contactPage {
         background-color: dodgerblue !important;
     }
+    
     /* bouton slider*/
     .navigations {
         bottom: 20px !important;
@@ -74,6 +116,7 @@
     .fmEmbossBtn {
         background-color: darkgreen;
     }
+    
     /*FORMULE ET TARIF*/
     .FM_md {
         position: absolute;
@@ -167,6 +210,7 @@
         position: relative;
         right: 30px;
     }
+    
     /*LASER*/
     .laser {
         width: 70%;
@@ -188,6 +232,7 @@
     .item_feature.no_border {
         font-size: 20px;
     }
+    
     /*ANNIVERSAIRE*/
     .sec_options {
         display: flex;
@@ -248,6 +293,7 @@
         padding: 
             2px;
     }
+    
     /*GROUPES*/
     .grp-ado-titre h2{
 	font-size: 
@@ -289,7 +335,5 @@
     }
     
     
-    
-    /*FOOTER*/
 }
 
