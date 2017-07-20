@@ -62,6 +62,17 @@ a:visited {
     text-shadow: 1px 1px 2px #000;
 }
 
+.fmslider_dots li a>span {
+    background-color: darkgreen;
+}
+
+ .fxEmbossBtn .btn_hover {
+    background-color: darkgreen !important;
+}
+.fmSlider_plaPau .fmSlider_plaPau_icon  {
+    background-color: darkgreen !important;
+}
+
 .header {
     background: #054312;
     height: 350px;
@@ -98,14 +109,6 @@ a:visited {
     width: 130px;
     height: 85px;
 }
-
-
-/* contenue modifier*/
-
-
-/*.menu_f {
-    margin-left: 200px;
-}*/
 
 .contactusForm .dashedBorder {
     background-color: rgba(4, 64, 4, 0.75);
@@ -281,7 +284,7 @@ a:visited {
     padding: 1%;
 }
 
-.infoactu{
+.infoactu {
     font-size: 24px;
 }
 
@@ -933,11 +936,11 @@ a:visited {
     z-index: 502;
 }
 
-
-.maps{
+.maps {
     width: 480px;
     height: 250px;
 }
+
 
 /*// footer //*/
 
