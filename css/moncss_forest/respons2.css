@@ -1,0 +1,16 @@
+@media only screen and (max-width: 330px) {
+    .formule, .formule1, .formule2, .formule3, .formule4, .formule5 {
+        font-size: 14px;
+        position: relative;
+        
+    }
+    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
+        font-size: 9px;
+        color: black !important;
+    }
+    
+    .formule4 {
+        font-size: 12px;
+        
+    }
+ }
