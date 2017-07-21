@@ -136,11 +136,17 @@
     }
     .formule4 {
 	position: relative;
-    top: 7px;    
+    top: 7px;
+    left: 25px;    
 }
+    .formule1 {
+        position: relative;
+        left: 25px;
+    }
     .formule, .formule2, .formule3 {
         position: relative;
         top: 5px;
+        left: 25px;
     }
     
     .documentation {
