@@ -1,58 +1,48 @@
-
 /*SMARTPHONE */
-
 
 @media only screen and (max-width: 420px) {
     /*loader*/
-    
     .loader div {
-    display: flex;
-    justify-content: space-between;
-        
-        
-}
-.arbre_load {
-    flex-direction: row;
-    position: absolute;
-    top: 480px;
-       height: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .arbre_load {
+        flex-direction: row;
+        position: absolute;
+        top: 480px;
+        height: 130px;
         width: 120px;
-}
-.forest_load {
-    position: absolute;
-    height: 60px;
-    width: 80px;    
-    top: 110px;
-}   
-.parcours_load {
-    position: absolute;
-    height: 40px;
-    width: 60px;    
-    top: 420px;
-    left: 150px;
-} 
-.lazer_load {
-    position: absolute;
-    height: 50px;
-    width: 70px;
-    top: 220px;
-    left: 150px;
-}
-
+    }
+    .forest_load {
+        position: absolute;
+        height: 60px;
+        width: 80px;
+        top: 110px;
+    }
+    .parcours_load {
+        position: absolute;
+        height: 40px;
+        width: 60px;
+        top: 420px;
+        left: 150px;
+    }
+    .lazer_load {
+        position: absolute;
+        height: 50px;
+        width: 70px;
+        top: 220px;
+        left: 150px;
+    }
     /*loader*/
-    
     .fa-2x {
-	font-size: 
-        inherit;
-}
+        font-size: inherit;
+    }
     .fa-star {
         display: none !important;
     }
-    
     .bg_forest {
         background-color: dodgerblue !important;
     }
-    
     /*logo nav*/
     .logo_f a img:first-child {
         width: 35%;
@@ -65,7 +55,6 @@
         position: relative;
         right: 50px;
     }
-    
     /*img presentation*/
     .image0bis {
         width: 120px !important;
@@ -78,12 +67,18 @@
         height: 80px;
     }
     .logo_f2 {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(252, 253, 255, 0.35);
         border-radius: 20px;
         margin-bottom: 20px;
     }
-    
+    .actu {
+        position: relative;
+        top: 40px;
+    }
     /*footer*/
+    .tiny_font {
+        display: none;
+    }
     .foo i {
         left: 30px;
         margin: 3px;
@@ -98,8 +93,6 @@
     p {
         font-size: 10px;
     }
-   
-    
     /* logo forest contact  */
     .bold_weight img {
         height: 100px;
@@ -108,7 +101,6 @@
     .contactPage {
         background-color: dodgerblue !important;
     }
-    
     /* bouton slider*/
     .navigations {
         bottom: 20px !important;
@@ -119,7 +111,6 @@
     .fmEmbossBtn {
         background-color: darkgreen;
     }
-    
     /*FORMULE ET TARIF*/
     .FM_md {
         position: absolute;
@@ -133,28 +124,20 @@
     .formule4,
     .formule5 {
         font-size: 16px;
-    }
-    .formule4 {
-	position: relative;
-    top: 7px;
-    left: 25px;    
-}
-    .formule1 {
-        position: relative;
-        left: 25px;
-    }
-    .formule, .formule2, .formule3 {
         position: relative;
         top: 5px;
         left: 25px;
     }
-    
+    .formule4 {
+        position: relative;
+        top: 7px;
+        left: 25px;
+    }
     .documentation {
         display: block;
+        width: inherit;
+        margin-left: 2%;
     }
-    /*.documentation img {
-        display: none;
-    }*/
     .descrip-form,
     .descrip-form1,
     .descrip-form2,
@@ -164,7 +147,6 @@
         font-size: 10px;
         line-height: 11px;
     }
-    
     .descrip-form1 {
         bottom: 5px;
     }
@@ -216,34 +198,37 @@
     .documentation .lien-reserv {
         position: relative;
         bottom: 360px;
+        border-radius: 10px;
     }
     .doc-form-sec img,
     .doc-form1-sec img,
     .doc-form2-sec img,
     .doc-form3-sec img,
     .doc-form4-sec img {
-        width: 40px;
-        height: 40px;
+        /* width: 40px;
+        height: 40px;*/
+        display: none;
     }
     .doc-form4-sec {
         position: relative;
         right: 30px;
     }
-    
     /*LASER*/
     .laser {
-        width: 70%;
+        width: 75%;
         position: relative;
         top: 80px;
         box-shadow: 1.5px 1.5px 9px black;
     }
     .parcours {
+        position: relative;
+        top: 70px;
         width: 90%;
         margin: inherit;
     }
-    .parcours img {
-        width: 290px;
-        height: 200px;
+    .parcour_imgForest {
+        height: 220px !important;
+        width: 95% !important;
     }
     h5 {
         font-size: 30px;
@@ -251,12 +236,12 @@
     .item_feature.no_border {
         font-size: 20px;
     }
-    
     /*ANNIVERSAIRE*/
     .sec_options {
+        position: relative;
+        bottom: 25px;
         display: flex;
         flex-direction: column;
-     
     }
     .sec_options article {
         width: 95%;
@@ -264,44 +249,33 @@
     }
     .options {
         width: 70%;
-           background-color: 
-            transparent
-            ;
+        background-color: transparent;
     }
-    
     .organisation {
-	background-color: 
-        rgba(225, 131, 178, 0.68);
-}
-    
-    
+        background-color: rgba(225, 131, 178, 0.68);
+    }
     .organisation p {
         font-size: 11px;
         line-height: 12px;
     }
-    .organisation h3{
-	line-height: 
-        12px;
-}
-    
-    
-    .reservation {
-        background-color: 
-            rgba(104, 163, 236, 0.77);
-}
-    
-    .reservation p {
-	line-height: 
-        12px;
-}
-    .lien-reserv p {
-	  line-height: 13px;
-}
-    .formules-anniv .lien-reserv p {
-        line-height: 
-            12px;
+    .organisation h3 {
+        line-height: 12px;
     }
-    
+    .reservation {
+        background-color: rgba(104, 163, 236, 0.77);
+    }
+    .reservation p {
+        line-height: 12px;
+    }
+    .lien-reserv p {
+        line-height: 13px;
+    }
+    .formules-anniv .lien-reserv p {
+        line-height: 12px;
+    }
+    .formule-edv {
+        height: 120%;
+    }
     .form-anniv-laser p,
     .form-anniv-accro p,
     .form-anniv-pass p {
@@ -312,50 +286,35 @@
     .form-anniv-pass {
         height: 35px;
         position: relative;
-        padding: 
-            2px;
+        padding: 2px;
     }
-    
     /*GROUPES*/
-    .grp-ado-titre h2{
-	font-size: 
-        20px !important;
-}
+    .grp-ado-titre h2 {
+        font-size: 20px !important;
+    }
     .grp-ado-titre h3 {
-        font-size: 
-            15px !important;
+        font-size: 15px !important;
     }
-     .grp-ado-titre h4 {
-        font-size: 
-            15px !important;
+    .grp-ado-titre h4 {
+        font-size: 15px !important;
     }
-    
     .grp-sec {
-        width: 
-            900px !important;
-	display: 
-        flex
-        ;
-        flex-direction: 
-            column
-            ;
+        width: 900px !important;
+        display: flex;
+        flex-direction: column;
         align-items: inherit !important;
-}
-    .groupes {
-	width: 
-        270px;
-        
-}
-    .form-accro p, .form-laser p, .form-pass p {
-        font-size: 
-            medium;
-        position: 
-            relative
-            ;
-        top: 
-            8px;
     }
-    
-    
+    .groupes {
+        position: relative;
+        top: 50px;
+        right: 15px;
+        width: 270px;
+    }
+    .form-accro p,
+    .form-laser p,
+    .form-pass p {
+        font-size: medium;
+        position: relative;
+        top: 8px;
+    }
 }
-
