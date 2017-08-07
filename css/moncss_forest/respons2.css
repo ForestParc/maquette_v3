@@ -27,7 +27,7 @@
 }
     .formule-adulte {
         background-color: rgba(107, 58, 255, 0.67);
-         height: 130%;
+         height: 170%;
     }
     
     .formule-ado {
@@ -39,6 +39,11 @@
         height: 120%;
 
  }
+    
+    .form-accro p, .form-laser p, .form-pass p {
+        letter-spacing: inherit;
+    }
+    
     .lien-reserv p {
 	  position: relative;
       line-height: inherit;
@@ -50,5 +55,12 @@
     .lien_anniv {
         width: inherit;
     }
+    
+    h3 {
+        font-size: 1em !important;
+        top: 8px;
+        position: relative;
+    }
 }
+
     

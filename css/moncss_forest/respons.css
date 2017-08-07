@@ -1,6 +1,11 @@
 /*SMARTPHONE */
 
 @media only screen and (max-width: 420px) {
+    
+    h3 {
+        letter-spacing: 1px;
+    }
+    
     /*loader*/
     .loader div {
         display: flex;
@@ -34,6 +39,16 @@
         left: 150px;
     }
     /*loader*/
+    
+    video {
+        right: inherit;
+        opacity: inherit;
+    }
+    
+    .play_video {
+        display: none;
+    }
+    
     .fa-2x {
         font-size: inherit;
     }
@@ -42,6 +57,8 @@
     }
     .bg_forest {
         background-color: dodgerblue !important;
+        position: inherit;
+        min-height: 680px;
     }
     /*logo nav*/
     .logo_f a img:first-child {
@@ -56,6 +73,7 @@
         right: 50px;
     }
     /*img presentation*/
+    
     .image0bis {
         width: 120px !important;
         height: 80px !important;
@@ -67,20 +85,24 @@
         height: 80px;
     }
     .logo_f2 {
-        background-color: rgba(252, 253, 255, 0.35);
-        border-radius: 20px;
-        margin-bottom: 20px;
+     display: none;
     }
     .actu {
         position: relative;
         top: 40px;
     }
     /*footer*/
+    
+    #email_nav {
+        font-size: 1em;
+    }
+    
     .tiny_font {
         display: none;
     }
     .foo i {
         left: 30px;
+        padding: 1px;
         margin: 3px;
         position: relative;
     }
@@ -114,8 +136,7 @@
     /*FORMULE ET TARIF*/
     .FM_md {
         position: absolute;
-        bottom: 99%;
-        left: 60px;
+       
     }
     .formule,
     .formule1,
@@ -144,8 +165,8 @@
     .descrip-form3,
     .descrip-form4 {
         position: relative;
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 0.8em;
+        line-height: 12px;
     }
     .descrip-form1 {
         bottom: 5px;
@@ -161,43 +182,44 @@
         position: relative;
     }
     .doc-formule {
-        height: 90px;
-        bottom: 110px;
+        height: 110px;
+        bottom: 50px;
     }
     .doc-formule1 {
-        height: 110px;
-        bottom: 112px;
+        height: 160px;
+        bottom: 45px;
     }
     .doc-formule2 {
-        height: 119px;
-        bottom: 114px;
+        height: 159px;
+        bottom: 44px;
     }
     .doc-formule3 {
-        height: 108px;
-        bottom: 347px;
+        height: 138px;
+        bottom: 180px;
     }
     .doc-formule4 {
-        height: 67px;
-        bottom: 348px;
+        height: 110px;
+        bottom: 180px;
     }
     .footer-doc-form,
     .footer-doc-form1,
     .footer-doc-form2,
     .footer-doc-form3,
     .footer-doc-form4 {
-        height: 49px;
+        height: 69px;
     }
     .footer-doc-form p,
     .footer-doc-form1 p,
     .footer-doc-form2 p,
     .footer-doc-form3 p,
     .footer-doc-form4 p {
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 12px;
+        line-height: 12px;
     }
     .documentation .lien-reserv {
         position: relative;
-        bottom: 360px;
+        bottom: 190px;
+        padding-top: 9px;
         border-radius: 10px;
     }
     .doc-form-sec img,
@@ -269,6 +291,7 @@
     }
     .lien-reserv p {
         line-height: 13px;
+        font-size: 0.8em;
     }
     .formules-anniv .lien-reserv p {
         line-height: 12px;
@@ -280,6 +303,7 @@
     .form-anniv-accro p,
     .form-anniv-pass p {
         font-size: 13px;
+        letter-spacing: inherit;
     }
     .form-anniv-accro,
     .form-anniv-laser,
@@ -307,7 +331,8 @@
     .groupes {
         position: relative;
         top: 50px;
-        right: 15px;
+        right: 35px;
+        height: 750px;
         width: 270px;
     }
     .form-accro p,
@@ -317,4 +342,11 @@
         position: relative;
         top: 8px;
     }
+    
+    .form-accro,  .form-laser,  .form-pass  {
+        height: 40px;
+        padding: 15px;
+        margin-bottom: 5px;
+    }
+    
 }

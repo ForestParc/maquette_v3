@@ -4,6 +4,12 @@
 }
 
 @font-face {
+    font-family: "janda";
+    src: url("../../fonts/Janda.ttf");
+}
+
+
+@font-face {
     font-family: "pasto";
     src: url("../../fonts/Gravity-Book.OTF");
 }
@@ -18,12 +24,22 @@ body {
     color: #271300;
 }
 
+.backGround {
+    background-color: #2492ff;
+}
+
 h1,
-h2,
 h3,
 h4 {
     font-family: "comic";
     color: #3A1B02;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: "janda";
+    letter-spacing: 4px;
+     color: #3A1B02;
 }
 
 .span12 h2 {
@@ -74,14 +90,14 @@ a:visited {
 }
 
 .fmslider_dots li a>span {
-    background-color: darkgreen;
+    background-color: #e8a306;
 }
 
  .fxEmbossBtn .btn_hover {
     background-color: darkgreen !important;
 }
 .fmSlider_plaPau .fmSlider_plaPau_icon  {
-    background-color: darkgreen !important;
+    background-color: #f5a52d !important;
 }
 
 .header {
@@ -148,6 +164,18 @@ a:visited {
     align-items: center;
 }
 
+.logo_f2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_f2 img {
+    height: 50px;
+    width: 120px;
+}
+
 .home {
     z-index: 502;
 }
@@ -156,7 +184,7 @@ a:visited {
     position: fixed;
     top: 189px;
     left: 25px;
-    height: 200px !important;
+    height: 250px !important;
     z-index: 501;
     -webkit-animation: spin 2s linear infinite;
     -moz-animation: spin 2s linear infinite;
@@ -227,28 +255,30 @@ a:visited {
 /*// page 1 //*/
 
 
-/*.video_forest {
-    z-index: 52 !important;
-}*/
-
+video {
+    opacity: 0.7;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.play_video {
+    position: relative;
+    height: 150px;
+    right: 39%;
+    bottom: 180px;
+}
 
 /*// page 2 //*/
 
 .bg_forest {
-    height: 800px;
+    height: 100%;
+    position: fixed;
 }
 
 .overlayBg.dark {
     background-color: inherit !important;
     height: 100%;
 }
-
-
-/*.documentation_f {
-    background-color: cornflowerblue !important;
-    background-image: url(../../assets/foret/colorisation012.3.png) !important;
-}
-    */
 
 
 /*// page 3 //*/
@@ -270,12 +300,6 @@ a:visited {
     width: 31%;
 }
 
-.logo_f2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
 
 .description .image0bis {
     width: 320px;
@@ -294,7 +318,7 @@ a:visited {
 
 .actu {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .infoactu {
@@ -302,6 +326,8 @@ a:visited {
 }
 
 .documentation {
+    position: relative;
+    top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,7 +350,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 34.375em;
+    height: 550px;
 }
 
 .documentation img {
@@ -436,7 +462,6 @@ a:visited {
     height: 50px;
     color: #fff;
     background-color: #7CB200;
-    height: 50px;
 }
 
 .footer-doc-form1 p {
@@ -596,6 +621,7 @@ a:visited {
 
 .lien-reserv {
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
 }
 
 .documentation a {
@@ -611,6 +637,8 @@ a:visited {
 }
 
 .parcours {
+    position: relative;
+    top: 30px;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -641,8 +669,8 @@ a:visited {
 .options {
     position: relative;
     top: 50px;
-    width: 1000px;
-    height: 450px;
+    width: 70%;
+   /* height: 450px;*/
     margin-left: 15%;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2%;
@@ -682,13 +710,13 @@ a:visited {
     justify-content: space-around;
     align-items: center;
     width: 30%;
-    height: 380px;
+    height: 430px;
     background-color: rgba(203, 18, 110, 0.5);
     border-radius: 2%;
 }
 
 .organisation p {
-    font-size: 16px;
+    font-size: 18px;
     color: #000;
 }
 
@@ -697,7 +725,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: 380px;
+    height: 430px;
     background-color: rgba(19, 123, 253, 0.5);
     border-radius: 2%;
     margin: 1%;
@@ -714,9 +742,15 @@ a:visited {
 }
 
 .options .reservation p {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: -13px;
     color: #000;
+}
+
+.options .reservation p:nth-child(5) {
+        background-color: #bbe2e2;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .options .reservation a {
@@ -728,7 +762,7 @@ a:visited {
     justify-content: space-around;
     align-items: center;
     width: 30%;
-    height: 380px;
+    height: 430px;
     background-color: rgba(70, 229, 3, 0.5);
     border-radius: 2%;
 }
@@ -762,6 +796,8 @@ a:visited {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 2px;
+    
 }
 
 .form-anniv-laser {
@@ -786,6 +822,7 @@ a:visited {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .form-anniv-pass {
@@ -810,16 +847,17 @@ a:visited {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .groupes {
     position: relative;
-    top: 15px;
+    top: 60px;
     width: 900px;
     height: 450px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2%;
-    margin-left: 20%;
+    margin-left: 25%;
     text-align: center;
     
 }
@@ -889,6 +927,7 @@ a:visited {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .form-laser {
@@ -913,6 +952,7 @@ a:visited {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .form-pass {
@@ -937,6 +977,7 @@ a:visited {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .formule-adulte {
@@ -992,10 +1033,8 @@ a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(10, 100, 10, 0.6);
-    bottom: 0;
+    background-color: rgba(8, 74, 8, 0.73);
     width: 100%;
-    height: 55px;
     z-index: 600;
     padding: 0.5%;
 }
@@ -1022,8 +1061,24 @@ footer .col-md-4 {
 }
 
 .fa-facebook-square {
-    color: #0a2f6d;
+    color: rgb(12, 192, 251);
+    position: relative;
+    top: 8px;
+}
+
+.fa-copyright {
+    position: relative;
+    color: #07a751;
+    top: 8px;
 }
 .fa-tripadvisor {
     color: #da7c09;
+    position: relative;
+    top: 8px;
+}
+
+#email_nav {
+    font-family: janda;
+    letter-spacing: 2px;
+    font-size: 1.5em;
 }
