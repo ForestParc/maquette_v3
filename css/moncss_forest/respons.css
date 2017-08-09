@@ -40,9 +40,13 @@
     }
     /*loader*/
     
+
+    
     video {
         right: inherit;
-        opacity: inherit;
+        display: block !important;
+        left: inherit;
+        opacity: 1 !important;
     }
     
     .play_video {
@@ -93,6 +97,14 @@
     }
     /*footer*/
     
+    .row-footer  {
+
+    display: flex;
+    justify-content: inherit;
+    width: 150%;
+
+    }
+    
     #email_nav {
         font-size: 1em;
     }
@@ -101,7 +113,6 @@
         display: none;
     }
     .foo i {
-        left: 30px;
         padding: 1px;
         margin: 3px;
         position: relative;
@@ -134,10 +145,7 @@
         background-color: darkgreen;
     }
     /*FORMULE ET TARIF*/
-    .FM_md {
-        position: absolute;
-       
-    }
+    
     .formule,
     .formule1,
     .formule2,

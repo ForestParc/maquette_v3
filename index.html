@@ -286,10 +286,6 @@ Release Date: July 2014
     </div>
     <!-- /////////////////////////////////////////////////// -->
     <!-- END MODALS -->
-    <!--
-  Header Navigation Area
-  Option to choose 2 types of header, 1. menuType1 and menuType2
--->
 
     <div class="header menuType2 showHide_content">
         <div class="container">
@@ -379,13 +375,13 @@ If you need this button just remove the comment code
                                 <div class="row-fluid">
                                     <!-- <div class="col-md-3"></div> -->
                                     <section class="description">
-
-                                    </section>
-                                    <video controls class="video_forest actu">
+                                        <video controls class="video_etat1 video_forest actu">
                   <source src="video_forestparc/pubfp.webm" type="video/webm">
                     <source src="video_forestparc/pubfp.mp4" type="video/mp4">
                     </video>
-                                    <img class="play_video" src="assets/play.png">
+                                        <img onclick="ShowThisThing()" class="play_video" src="assets/play.png">
+                                    </section>
+
                                     <div class="col-md-3"></div>
                                 </div>
                                 <hr class="separator_mini">
@@ -472,7 +468,12 @@ If you need this button just remove the comment code
                     <div class="container">
                         <div class="row-fluid">
                             <div class="col-md-12 textAlignCenter" data-animated-time="5" data-animated-in="animated flipInX" data-animated-innerContent="yes">
-                                <h2 class=" FM_md white_color"><i class="fa fa-th-list" aria-hidden="true"></i> FORMULES ET TARIFS</h2>
+                                <div class="grp-titres">
+                                    <h2 class=" FM_md "><i class="fa fa-th-list" aria-hidden="true"></i> FORMULES ET TARIFS</h2>
+                                    <hr/>
+                                    <h4>Plus de 110 jeux : des sensations inoubliables !</h4>
+                                    <h4>Formules tout compris à la journée ou 1/2journée</h4>
+                                </div>
                                 <br>
                                 <div class="documentation">
                                     <article>
@@ -483,7 +484,7 @@ If you need this button just remove the comment code
                                                 <p class="formule">Formule <strong>P'TIT ECUREUIL</strong></p>
                                             </section>
                                             <section class="prix darkColorText">
-                                                <p class="descrip-form"><strong>A partir de 2 ans</strong></br>Mini-parc + Château gonflable + Trampoline à volonté</p>
+                                                <p class="descrip-form"><strong>A partir de 2 ans</strong><br/>Mini-parc + Château gonflable + Trampoline à volonté</p>
                                                 <img src="assets/formules/prix-formule.png" alt="">
                                             </section>
                                             <div class="footer-doc-form darkColorText">
@@ -497,7 +498,7 @@ If you need this button just remove the comment code
                                                 <p class="formule1">Formule <strong>K I D</strong></p>
                                             </section>
                                             <section class="prix darkColorText">
-                                                <p class="descrip-form1"><strong>A partir de 3 ans</strong></br>Super Kid + Top Kid + Château + Trampoline à volonté</br>2 parcours en Ligne de Vie Continue pour les petits dégourdis!</br>Surveillance par un adulte responsable au sol</p>
+                                                <p class="descrip-form1"><strong>A partir de 3 ans</strong><br/>Super Kid + Top Kid + Château + Trampoline à volonté</br>2 parcours en Ligne de Vie Continue pour les petits dégourdis!</br>Surveillance par un adulte responsable au sol</p>
                                                 <img src="assets/formules/prix-formule1.png" alt="">
                                             </section>
                                             <div class="footer-doc-form1 darkColorText">
@@ -568,8 +569,12 @@ If you need this button just remove the comment code
                     <div class="container" data-animated-in="animated fadeInUp" data-animated-innerContent="yes">
 
                         <div class="row-fluid">
-                            <div class="span12 textAlignCenter relativePos">
-                                <h2 class="remove_bottomPadding white_color"><i class="fa fa-map-signs" aria-hidden="true"></i> NOS PARCOURS</h2>
+                            <div class="grp-titres span12 textAlignCenter relativePos">
+                                <h2 class="remove_bottomPadding "><i class="fa fa-map-signs" aria-hidden="true"></i> NOS PARCOURS</h2>
+                                <hr/>
+                                <h3>3 hectares de forêt de pins : un espace naturel préservé !
+                                    <br>jouez avec de l'eau sur les parcours! De la fraîcheur au sol jusque dans les arbres!</h3>
+
                             </div>
                         </div>
                         <div class="parcours">
@@ -581,7 +586,7 @@ If you need this button just remove the comment code
                 </div>
 
                 <!-- Content display with Background image -->
-                 <!-- DONT DELETE THIS PART -->
+                <!-- DONT DELETE THIS PART -->
                 <div class="container" style="display:none">
                     <div class="row" data-animated-time="0" data-animated-in="animated fadeInUp" data-animated-innerContent="yes">
                         <div class="col-md-12 textAlignCenter">
@@ -727,8 +732,10 @@ If you need this button just remove the comment code
 
                 <div class="bg_forest container-fluid removePadding fullWidth fullResponse parallax" data-src="assets/foret/bg_forest_4.png" data-src-small="assets/foret/bg_forest_4.png">
                     <div class="row-fluid">
-                        <div class="span12 textAlignCenter relativePos">
-                            <h2 class="remove_bottomPadding white_color"><i class="fa fa-birthday-cake " aria-hidden="true"></i> ANNIVERSAIRE</h2>
+                        <div class="grp-titres span12 textAlignCenter relativePos">
+                            <h2 class="remove_bottomPadding"><i class="fa fa-birthday-cake " aria-hidden="true"></i> ANNIVERSAIRE</h2>
+                            <hr/>
+                            <h3>10 PARCOURS pour adultes et enfants à partir de 3 ans !</h3>
                         </div>
                     </div>
 
@@ -754,12 +761,12 @@ If you need this button just remove the comment code
                             </article>
 
                             <article class="organisation">
-                                <h3><i class="fa fa-pencil-square-o " aria-hidden="true"></i> Organisation de l'anniversaire :</h3>
+                                <h3><i class="fa fa-pencil-square-o " aria-hidden="true"></i> Organisation de l'anniversaire </h3>
                                 <p>Rendez-vous à 14h au parc, fin des activités à 17h.<br/> Une table de pique-nique vous sera réservée sur place.<br/> Le gâteau et les boissons sont à votre charge (frigo à votre disposition sur place).<br/> Activités sous la surveillance des parents au sol ou dans les arbres (activités gratuites pour les accompagnants).</p>
                             </article>
 
                             <article class="reservation">
-                                <h3><i class="fa fa-envelope" aria-hidden="true"></i> Reservation :</h3>
+                                <h3><i class="fa fa-envelope" aria-hidden="true"></i> Reservation </h3>
                                 <p><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Pour valider votre réservation rendez-vous dans la section contact et remplissez le formulaire de demande de réservation en précisant:
                                     <p/>
                                     <p>
@@ -964,10 +971,7 @@ If you need this button just remove the comment code
         <div class="showHide_content">
 
             <div class="container">
-                <div class="row-fluid" style="
-    display: flex;
-    justify-content: space-between;
-">
+                <div class="row-fluid row-footer">
                     <div class="foo col-md-4">
 
                         <a href="https://www.facebook.com/forestparc" target="_blank">
@@ -1038,7 +1042,18 @@ If you need this button just remove the comment code
     <script type="text/javascript" src="js/main-fm.min.js"></script>
     <script type="text/javascript" src="js/jquery.jstwitter.js"></script>
 
+
     <script type="text/javascript">
+        /* this is my js for my wonderfull video */
+
+
+        function ShowThisThing() {
+            
+            $(".play_video").css("display", "none");
+            $("video").removeClass("video_etat1").addClass("video_etat2");
+            
+        };
+
         $(document).ready(function() {
 
 

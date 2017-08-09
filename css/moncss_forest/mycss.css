@@ -10,8 +10,8 @@
 
 
 @font-face {
-    font-family: "pasto";
-    src: url("../../fonts/Gravity-Book.OTF");
+    font-family: "bosk";
+    src: url("../../fonts/Bosk1.ttf");
 }
 
 html,
@@ -31,7 +31,7 @@ body {
 h1,
 h3,
 h4 {
-    font-family: "comic";
+    font-family: "bosk";
     color: #3A1B02;
     letter-spacing: 5px;
 }
@@ -99,6 +99,9 @@ a:visited {
 .fmSlider_plaPau .fmSlider_plaPau_icon  {
     background-color: #f5a52d !important;
 }
+
+
+/*NAVIGATION*/
 
 .header {
     background: #054312;
@@ -176,6 +179,9 @@ a:visited {
     width: 120px;
 }
 
+/*FIN NAVIGATION*/
+
+
 .home {
     z-index: 502;
 }
@@ -238,7 +244,7 @@ a:visited {
     background-size: contain;
     background-position: top;
     
-    /*    -webkit-transform:rotate(2deg);
+ /*       -webkit-transform:rotate(2deg);
     -moz-transform:rotate(2deg);
     -o-transform:rotate(2deg);
     -ms-transform:rotate(2deg);*/
@@ -255,18 +261,39 @@ a:visited {
 /*// page 1 //*/
 
 
+/*VIDEO*/
+
+.video_etat1 { 
+    display: none;
+    
+}
+
+.video_etat2 {  
+    opacity: 1;
+    
+}
+
 video {
     opacity: 0.7;
-    position: relative;
-    right: 40px;
-    top: 30px;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+
 }
 .play_video {
-    position: relative;
+    position: fixed;
     height: 150px;
-    right: 39%;
-    bottom: 180px;
+    left: 45%;
+    right: 45%;
+    cursor: pointer;  
 }
+
+.play_video:hover {
+    padding-top: 2px;
+}
+
+/*FIN VIDEO*/
+
 
 /*// page 2 //*/
 
@@ -285,11 +312,10 @@ video {
 
 .description {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    position: relative;
     align-items: center;
-    border: none !important;
-    margin-top: -40px;
+/*    border: none !important;
+    margin-top: -40px;*/
 }
 
 .description .image0 {
@@ -327,12 +353,9 @@ video {
 
 .documentation {
     position: relative;
-    top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    margin-left: 10%;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -355,6 +378,19 @@ video {
 
 .documentation img {
     margin-right: 1%;
+}
+
+
+.documentation a {
+    color: #FF6620 !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "comic";
+}
+
+.documentation a:hover {
+    color: rgba(255, 102, 32, 0.5);
+    text-shadow: 1px 1px 2px #000;
 }
 
 .prix img {
@@ -624,28 +660,15 @@ video {
     border-radius: 12px;
 }
 
-.documentation a {
-    color: #FF6620 !important;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "comic";
-}
-
-.documentation a:hover {
-    color: rgba(255, 102, 32, 0.5);
-    text-shadow: 1px 1px 2px #000;
-}
-
 .parcours {
     position: relative;
-    top: 30px;
-    width: 75%;
+    top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-left: 16%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 1%;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -718,6 +741,9 @@ video {
 .organisation p {
     font-size: 18px;
     color: #000;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.63);
 }
 
 .reservation {
@@ -734,6 +760,7 @@ video {
 .options .organisation h3 {
     color: #D71374 !important;
     text-shadow: 1px 1px 2px #000;
+    font-size: 2em;
 }
 
 .options .reservation h3 {
@@ -768,8 +795,8 @@ video {
 }
 
 .formules-anniv h3 {
-    font-size: 26px;
-    color: #46E503;
+    font-size: 2em;
+    color: #2c8e03;
     text-align: center;
     text-shadow: 1px 1px 2px #000;
 }
@@ -796,7 +823,7 @@ video {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     
 }
 
@@ -822,7 +849,7 @@ video {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 .form-anniv-pass {
@@ -847,7 +874,19 @@ video {
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+
+
+.grp-titres h3 {
+    position: relative;
+    top: 35px;
+    font-size: 1.6em;
+}
+
+.grp-titres h4 {
+    position: relative;
+    font-size: 1.6em;
 }
 
 .groupes {
@@ -1041,9 +1080,6 @@ video {
 
 .foo {
     display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
-    width: 15%;
 }
 
 .foo img {
@@ -1063,7 +1099,8 @@ footer .col-md-4 {
 .fa-facebook-square {
     color: rgb(12, 192, 251);
     position: relative;
-    top: 8px;
+    top: 7px;
+    
 }
 
 .fa-copyright {
@@ -1074,11 +1111,16 @@ footer .col-md-4 {
 .fa-tripadvisor {
     color: #da7c09;
     position: relative;
-    top: 8px;
+    top: 7px;
+    padding-left: 5px;
 }
 
 #email_nav {
     font-family: janda;
     letter-spacing: 2px;
     font-size: 1.5em;
+}
+
+.showHide_content {
+    overflow: initial;
 }
