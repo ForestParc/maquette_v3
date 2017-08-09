@@ -275,16 +275,27 @@ a:visited {
 
 video {
     opacity: 0.7;
-    position: fixed;
-    left: 20%;
-    right: 20%;
+    position: absolute;
+    top: 10%;
+   
 
 }
+
+.font_img_bgVideo {
+    height: 500px;
+    width: 900px;
+    margin-left: 13%;
+    background-color: rgba(255, 246, 212, 0.38);
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
 .play_video {
     position: fixed;
     height: 150px;
     left: 45%;
     right: 45%;
+    top: 35%;
     cursor: pointer;  
 }
 
@@ -1066,6 +1077,10 @@ video {
 
 
 /*// footer //*/
+
+.row-footer {
+    width: 145%;
+}
 
 .footer {
     position: fixed;
