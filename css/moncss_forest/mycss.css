@@ -1078,7 +1078,7 @@ video {
 /*// footer //*/
 
 .row-footer {
-    width: 145%;
+    width: 100%;
 }
 
 .footer {
@@ -1131,12 +1131,13 @@ footer .col-md-4 {
 
 #email_nav {
     font-family: janda;
-    letter-spacing: 2px;
     font-size: 1.5em;
+    margin-right: 50px;
 }
 
 .showHide_content {
     overflow: initial;
+    width: 100%;
 }
 
 #actu-title {
@@ -1148,4 +1149,9 @@ footer .col-md-4 {
     
     margin-right: 30px;
     line-height: 30px;
+}
+
+#fb_icon {
+    
+    margin-right: 15px;
 }
