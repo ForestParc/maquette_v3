@@ -1,0 +1,360 @@
+/*SMARTPHONE */
+
+@media only screen and (max-width: 420px) {
+    
+    h3 {
+        letter-spacing: 1px;
+    }
+    
+    /*loader*/
+    .loader div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .arbre_load {
+        flex-direction: row;
+        position: absolute;
+        top: 480px;
+        height: 130px;
+        width: 120px;
+    }
+    .forest_load {
+        position: absolute;
+        height: 60px;
+        width: 80px;
+        top: 110px;
+    }
+    .parcours_load {
+        position: absolute;
+        height: 40px;
+        width: 60px;
+        top: 420px;
+        left: 150px;
+    }
+    .lazer_load {
+        position: absolute;
+        height: 50px;
+        width: 70px;
+        top: 220px;
+        left: 150px;
+    }
+    /*loader*/
+    
+
+    
+    video {
+        right: inherit;
+        display: block !important;
+        left: inherit;
+        opacity: 1 !important;
+    }
+    
+    .play_video {
+        display: none;
+    }
+    
+    .fa-2x {
+        font-size: inherit;
+    }
+    .fa-star {
+        display: none !important;
+    }
+    .bg_forest {
+        background-color: dodgerblue !important;
+        position: inherit;
+        min-height: 680px;
+    }
+    /*logo nav*/
+    .logo_f a img:first-child {
+        width: 35%;
+        margin-left: inherit;
+        right: 50px;
+    }
+    .logo_f a img:nth-child(2) {
+        width: 22%;
+        height: 10%;
+        position: relative;
+        right: 50px;
+    }
+    /*img presentation*/
+    
+    .image0bis {
+        width: 120px !important;
+        height: 80px !important;
+    }
+    .img-saut {
+        height: 120px;
+    }
+    .home_img img {
+        height: 80px;
+    }
+    .logo_f2 {
+     display: none;
+    }
+    .actu {
+        position: relative;
+        top: 40px;
+    }
+    /*footer*/
+    
+    .row-footer  {
+
+    display: flex;
+    justify-content: inherit;
+    width: 150%;
+
+    }
+    
+    #email_nav {
+        font-size: 1em;
+    }
+    
+    .tiny_font {
+        display: none;
+    }
+    .foo i {
+        padding: 1px;
+        margin: 3px;
+        position: relative;
+    }
+    .masquotte {
+        display: none;
+    }
+    .corde {
+        display: none;
+    }
+    p {
+        font-size: 10px;
+    }
+    /* logo forest contact  */
+    .bold_weight img {
+        height: 100px;
+        width: 300px;
+    }
+    .contactPage {
+        background-color: dodgerblue !important;
+    }
+    /* bouton slider*/
+    .navigations {
+        bottom: 20px !important;
+    }
+    .fmslider_dots li a>span {
+        background-color: darkgreen;
+    }
+    .fmEmbossBtn {
+        background-color: darkgreen;
+    }
+    /*FORMULE ET TARIF*/
+    
+    .formule,
+    .formule1,
+    .formule2,
+    .formule3,
+    .formule4,
+    .formule5 {
+        font-size: 16px;
+        position: relative;
+        top: 5px;
+        left: 25px;
+    }
+    .formule4 {
+        position: relative;
+        top: 7px;
+        left: 25px;
+    }
+    .documentation {
+        display: block;
+        width: inherit;
+        margin-left: 2%;
+    }
+    .descrip-form,
+    .descrip-form1,
+    .descrip-form2,
+    .descrip-form3,
+    .descrip-form4 {
+        position: relative;
+        font-size: 0.8em;
+        line-height: 12px;
+    }
+    .descrip-form1 {
+        bottom: 5px;
+    }
+    .descrip-form2 {
+        bottom: 5px;
+    }
+    .doc-formule,
+    .doc-formule1,
+    .doc-formule2,
+    .doc-formule3,
+    .doc-formule4 {
+        position: relative;
+    }
+    .doc-formule {
+        height: 110px;
+        bottom: 50px;
+    }
+    .doc-formule1 {
+        height: 160px;
+        bottom: 45px;
+    }
+    .doc-formule2 {
+        height: 159px;
+        bottom: 44px;
+    }
+    .doc-formule3 {
+        height: 138px;
+        bottom: 180px;
+    }
+    .doc-formule4 {
+        height: 110px;
+        bottom: 180px;
+    }
+    .footer-doc-form,
+    .footer-doc-form1,
+    .footer-doc-form2,
+    .footer-doc-form3,
+    .footer-doc-form4 {
+        height: 69px;
+    }
+    .footer-doc-form p,
+    .footer-doc-form1 p,
+    .footer-doc-form2 p,
+    .footer-doc-form3 p,
+    .footer-doc-form4 p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .documentation .lien-reserv {
+        position: relative;
+        bottom: 190px;
+        padding-top: 9px;
+        border-radius: 10px;
+    }
+    .doc-form-sec img,
+    .doc-form1-sec img,
+    .doc-form2-sec img,
+    .doc-form3-sec img,
+    .doc-form4-sec img {
+        /* width: 40px;
+        height: 40px;*/
+        display: none;
+    }
+    .doc-form4-sec {
+        position: relative;
+        right: 30px;
+    }
+    /*LASER*/
+    .laser {
+        width: 75%;
+        position: relative;
+        top: 80px;
+        box-shadow: 1.5px 1.5px 9px black;
+    }
+    .parcours {
+        position: relative;
+        top: 70px;
+        width: 90%;
+        margin: inherit;
+    }
+    .parcour_imgForest {
+        height: 220px !important;
+        width: 95% !important;
+    }
+    h5 {
+        font-size: 30px;
+    }
+    .item_feature.no_border {
+        font-size: 20px;
+    }
+    /*ANNIVERSAIRE*/
+    .sec_options {
+        position: relative;
+        bottom: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec_options article {
+        width: 95%;
+        height: 70%;
+    }
+    .options {
+        width: 70%;
+        background-color: transparent;
+    }
+    .organisation {
+        background-color: rgba(225, 131, 178, 0.68);
+    }
+    .organisation p {
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .organisation h3 {
+        line-height: 12px;
+    }
+    .reservation {
+        background-color: rgba(104, 163, 236, 0.77);
+    }
+    .reservation p {
+        line-height: 12px;
+    }
+    .lien-reserv p {
+        line-height: 13px;
+        font-size: 0.8em;
+    }
+    .formules-anniv .lien-reserv p {
+        line-height: 12px;
+    }
+    .formule-edv {
+        height: 120%;
+    }
+    .form-anniv-laser p,
+    .form-anniv-accro p,
+    .form-anniv-pass p {
+        font-size: 13px;
+        letter-spacing: inherit;
+    }
+    .form-anniv-accro,
+    .form-anniv-laser,
+    .form-anniv-pass {
+        height: 35px;
+        position: relative;
+        padding: 2px;
+    }
+    /*GROUPES*/
+    .grp-ado-titre h2 {
+        font-size: 20px !important;
+    }
+    .grp-ado-titre h3 {
+        font-size: 15px !important;
+    }
+    .grp-ado-titre h4 {
+        font-size: 15px !important;
+    }
+    .grp-sec {
+        width: 900px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: inherit !important;
+    }
+    .groupes {
+        position: relative;
+        top: 50px;
+        right: 35px;
+        height: 750px;
+        width: 270px;
+    }
+    .form-accro p,
+    .form-laser p,
+    .form-pass p {
+        font-size: medium;
+        position: relative;
+        top: 8px;
+    }
+    
+    .form-accro,  .form-laser,  .form-pass  {
+        height: 40px;
+        padding: 15px;
+        margin-bottom: 5px;
+    }
+    
+}

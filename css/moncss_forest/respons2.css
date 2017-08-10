@@ -1,0 +1,66 @@
+@media only screen and (max-width: 330px) {
+    .formule, .formule1, .formule2, .formule3, .formule4, .formule5 {
+        position: relative;
+        left: 55px;
+        
+    }
+    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
+        font-size: 9px;
+        color: black !important;
+    }
+    
+    .formule4 {
+        font-size: 12px; 
+    }
+    
+    .grp-sec {
+        width: 700px ! important; 
+}
+    .groupes {
+	background-color: transparent !important;
+    height: 570px;    
+        
+}
+    .formule-edv {
+	 background-color: rgba(182, 255, 155, 0.5);
+         height: 170%;
+}
+    .formule-adulte {
+        background-color: rgba(107, 58, 255, 0.67);
+         height: 170%;
+    }
+    
+    .formule-ado {
+	   background-color: rgba(255, 115, 0, 0.71);
+        height: 170%;
+}
+    .form-accro, .form-laser, .form-pass {
+	 margin-bottom: 7px;
+        height: 120%;
+
+ }
+    
+    .form-accro p, .form-laser p, .form-pass p {
+        letter-spacing: inherit;
+    }
+    
+    .lien-reserv p {
+	  position: relative;
+      line-height: inherit;
+      font-size: 14px;  
+}
+     .lien-reserv {
+	width: 80%;
+}
+    .lien_anniv {
+        width: inherit;
+    }
+    
+    h3 {
+        font-size: 1em !important;
+        top: 8px;
+        position: relative;
+    }
+}
+
+    
