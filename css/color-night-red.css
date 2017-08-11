@@ -1528,7 +1528,6 @@ ul.nav-tabs > li{ border: solid 1px #b0b0b0; }
 	.gallery_navigations{ background-color: rgba(0, 0, 0, .2); }
 	}
 
-.page_header { border-bottom:1px #444444 solid; }
 .page_header.mini { border-bottom:1px #444444 solid; }
 .page_header.inverse {  border-bottom:1px #dddddd solid; border-bottom:1px rgba(255, 255, 255, .5) solid; }
 
