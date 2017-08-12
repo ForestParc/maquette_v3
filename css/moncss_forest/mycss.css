@@ -1204,7 +1204,14 @@ footer .col-md-4 {
     height: 350px;
 }
 
+/* #################### FAT SCREEN (Width = 1600px) #############*/
 
+@media only screen and (max-width: 1600px) {
+    
+    .header ul.nav>li a {
+        
+        letter-spacing: inherit;
+    }
 
 /* #################### MID SCREEN (Width = 1400px) #############*/
 
@@ -1232,6 +1239,16 @@ footer .col-md-4 {
     .laser {
     
         margin-top: 125px;
+    }
+    
+     .header ul.nav>li a {
+        
+        font-size: 12px !important;
+    }
+    
+    .header_content ul li a {
+        
+        padding: 2px 4px;
     }
     
 }
