@@ -398,6 +398,12 @@ video {
     width: 20%;
 }
 
+.prix {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
+}
+
 
 /*FOrmule*/
 
