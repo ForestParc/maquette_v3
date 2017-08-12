@@ -1113,11 +1113,6 @@ footer .col-md-4 {
     bottom: 5px;
 }
 
-.row-footer .col-md-4 {
-    width: initial !important;
-
-}
-
 .fa-facebook-square {
     color: rgb(12, 192, 251);
     position: relative;
@@ -1139,7 +1134,7 @@ footer .col-md-4 {
 
 #email_nav {
     font-family: janda;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-right: 50px;
 }
 
@@ -1191,3 +1186,4 @@ footer .col-md-4 {
     
     height: 350px;
 }
+
