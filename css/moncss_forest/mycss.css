@@ -1204,11 +1204,34 @@ footer .col-md-4 {
     height: 350px;
 }
 
+
+
+/* #################### MID SCREEN (Width = 1400px) #############*/
+
+@media only screen and (max-width: 1400px) {
+    
+    .form-anniv-accro p {
+    
+        font-size: 14px;
+    }
+    
+    .form-anniv-laser p {
+        
+        font-size: 14px;
+    }
+    
+    .form-anniv-pass p {
+        
+        font-size: 14px;
+    }
+}
 /* #################### MID SCREEN (Width = 1340px) #############*/
 
 @media only screen and (max-width: 1340px) {
-.laser {
     
-    margin-top: 125px;
-}
+    .laser {
+    
+        margin-top: 125px;
+    }
+    
 }
