@@ -1030,9 +1030,17 @@ REWORK BY :
                 id: 'mapbox.streets',
                 accessToken: 'pk.eyJ1IjoiY2FtaWxsZXRoZWlsIiwiYSI6ImNqNjhmZ2pvajBlMHIzMXMybnkwbGRqMDkifQ.IBAtV-YDgoYEPYgsldRiTQ'
                 }).addTo(mymap);
+                var marker = L.marker([44.068098, 4.03729]).addTo(mymap);
+                var circle = L.circle([44.068098, 4.03729], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.5,
+                radius: 500
+              }).addTo(mymap);
+              marker.bindPopup("<b>Forest Parc !</b><br/>Nos coordonnées GPS sont: 44.068098, 4.03729").openPopup();
         /* this is my js for my wonderfull video <3 */
             function ShowThisThing() {
-                $(".play_video").css("display", "none");
+                $(".play_video").css("display", "none"); 
                 $(".video_etat1").html("<source src='video_forestparc/pubfp.webm' type='video/webm'>");
                 $("video").removeClass("video_etat1").addClass("video_etat2");
             };
