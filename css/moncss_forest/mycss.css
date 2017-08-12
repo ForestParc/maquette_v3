@@ -1252,3 +1252,38 @@ footer .col-md-4 {
     }
     
 }
+/* #################### MID SCREEN (Width = 1170px) #############*/
+
+@media only screen and (max-width: 1170px) {
+    
+    #forest_load {
+        height: 40px;
+        width: 70px;    
+    }   
+    #parcours_load {
+        height: 35x;
+        width: 60px;    
+    } 
+    #lazer_load {
+        height: 40px;
+        width: 70px;
+    
+    }
+}
+/* #################### MID SCREEN (Width = 1040px) #############*/
+
+@media only screen and (max-width: 1040px) {
+    
+    .laser {
+        
+        margin-top: 175px;
+    }
+    
+    .logo_f a img{
+        
+        width: 325px;
+        height: 50px;
+    }
+}
+    
+    
