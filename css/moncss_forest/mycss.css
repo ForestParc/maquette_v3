@@ -113,6 +113,7 @@ a:visited {
     color: #fff !important;
     font-family: "comic" !important;
     font-size: 15px !important;
+    letter-spacing: 2px;
 }
 
 .header ul.nav>li a.active {
@@ -396,6 +397,12 @@ video {
 
 .prix img {
     width: 20%;
+}
+
+.prix {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
 }
 
 
