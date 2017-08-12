@@ -668,7 +668,7 @@ video {
 .lien-reserv {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
-    width: 80%;
+    width: 100%;
 }
 
 .parcours {
@@ -1113,11 +1113,6 @@ footer .col-md-4 {
     bottom: 5px;
 }
 
-.row-footer .col-md-4 {
-    width: initial !important;
-
-}
-
 .fa-facebook-square {
     color: rgb(12, 192, 251);
     position: relative;
@@ -1139,7 +1134,7 @@ footer .col-md-4 {
 
 #email_nav {
     font-family: janda;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-right: 50px;
 }
 
@@ -1176,3 +1171,19 @@ footer .col-md-4 {
     
     padding: 50px 50px 0 50px;
 }
+
+.send-mail {
+    
+    margin-top: 100px;
+}
+
+.title i {
+ 
+    margin-right: 10px;
+}
+
+.item_feature {
+    
+    height: 350px;
+}
+
