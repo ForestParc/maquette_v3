@@ -113,6 +113,7 @@ a:visited {
     color: #fff !important;
     font-family: "comic" !important;
     font-size: 15px !important;
+    letter-spacing: 2px;
 }
 
 .header ul.nav>li a.active {
