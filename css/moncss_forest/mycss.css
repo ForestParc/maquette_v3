@@ -1113,7 +1113,7 @@ footer .col-md-4 {
     bottom: 5px;
 }
 
-.col-md-4 {
+.row-footer .col-md-4 {
     width: initial !important;
 
 }
