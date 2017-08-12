@@ -54,10 +54,9 @@ a,
 a:visited {
     color: inherit !important;
 }
-
-.modal-dialog {
-    border: 2px solid #FF6620;
-    border-radius: 5px;
+#modal-parcours {
+    
+    margin-top: 200px;
 }
 
 .modal-content img {
@@ -678,7 +677,6 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 55%;
     padding: 1%;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -777,6 +775,7 @@ video {
     color: #D71374 !important;
     text-shadow: 1px 1px 2px #000;
     font-size: 2em;
+    text-align: center;
 }
 
 .options .reservation h3 {
@@ -890,6 +889,11 @@ video {
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 0.5px;
+}
+
+.grp-titres {
+    position: relative;
+    top: 18px;
 }
 
 .grp-titres h3 {
