@@ -668,7 +668,7 @@ video {
 .lien-reserv {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
-    width: 100%;
+    width: 80%;
 }
 
 .parcours {
@@ -777,6 +777,7 @@ video {
     color: #D71374 !important;
     text-shadow: 1px 1px 2px #000;
     font-size: 2em;
+    text-align: center;
 }
 
 .options .reservation h3 {
@@ -890,6 +891,11 @@ video {
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 0.5px;
+}
+
+.grp-titres {
+    position: relative;
+    top: 18px;
 }
 
 .grp-titres h3 {
