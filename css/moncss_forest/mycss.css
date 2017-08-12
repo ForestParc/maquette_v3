@@ -375,7 +375,7 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
     height: 550px;
 }
 
@@ -407,11 +407,11 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: rgba(255, 115, 0, 0.5);
+    background-color: rgba(245, 152, 76, 0.88);
     margin: 1%;
     padding: 1%;
     height: 30%;
-    width: 80%;
+    width: 90%;
     border-radius: 2%;
 }
 
@@ -467,11 +467,11 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: rgba(124, 178, 0, 0.5);
+    background-color: rgba(192, 234, 96, 0.84);
     margin: 1%;
     padding: 1%;
     height: 35%;
-    width: 80%;
+    width: 90%;
     border-radius: 2%;
 }
 
@@ -521,11 +521,11 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: rgba(1, 102, 255, 0.5);
+    background-color: rgba(85, 144, 234, 0.78);
     margin: 1%;
     padding: 1%;
     height: 40%;
-    width: 80%;
+    width: 90%;
     border-radius: 5%;
 }
 
@@ -578,11 +578,11 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(245, 72, 72, 0.8);
     margin: 1%;
     padding: 1%;
     height: 35%;
-    width: 80%;
+    width: 90%;
     border-radius: 2%;
 }
 
@@ -638,7 +638,7 @@ video {
     margin-bottom: 20px;
     padding: 1%;
     height: 25%;
-    width: 80%;
+    width: 90%;
     border-radius: 2%;
 }
 
@@ -665,10 +665,15 @@ video {
     margin-top: -2px;
 }
 
+.width-lien {
+    width: 90% !important;
+    
+}
+
 .lien-reserv {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
-    width: 80%;
+    width: 100%;
 }
 
 .parcours {
