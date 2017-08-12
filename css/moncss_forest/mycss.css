@@ -1091,7 +1091,7 @@ video {
     align-items: center;
     background-color: rgba(8, 74, 8, 0.73);
     width: 100%;
-    z-index: 600;
+    z-index: 1000;
     padding: 0.5%;
 }
 
@@ -1136,11 +1136,6 @@ footer .col-md-4 {
     font-family: janda;
     font-size: 1.5em;
     margin-right: 50px;
-}
-
-.showHide_content {
-    overflow: initial;
-    width: 100%;
 }
 
 #actu-title {
