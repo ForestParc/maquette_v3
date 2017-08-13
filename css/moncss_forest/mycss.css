@@ -1251,6 +1251,12 @@ footer .col-md-4 {
         padding: 2px 4px;
     }
     
+    .actu {
+        
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    
 }
 /* #################### MID SCREEN (Width = 1170px) #############*/
 
@@ -1281,9 +1287,18 @@ footer .col-md-4 {
     
     .logo_f a img{
         
-        width: 325px;
-        height: 50px;
+        width: 400px;
+        height: 75px;
     }
 }
     
+/* #################### MID SCREEN (Width = 1024px) #############*/
+
+@media only screen and (max-width: 1024px) {
     
+    .logo_f a img{
+        
+        width: 275px;
+        height: 50px;
+    }
+}
