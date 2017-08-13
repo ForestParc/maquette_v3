@@ -359,6 +359,9 @@ video {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
+    border: 4px;
+    border-left-style: groove;
+    border-right-style: groove;
     
 }
 
@@ -465,6 +468,7 @@ video {
     justify-content: center;
     margin: inherit;
     line-height: inherit;
+    align-items: center;
 }
 
 
@@ -521,6 +525,7 @@ video {
     justify-content: center;
     margin: inherit;
     line-height: inherit;
+    align-items: center;
 }
 
 
@@ -580,6 +585,7 @@ video {
     justify-content: center;
     margin: inherit;
     line-height: inherit;
+    align-items: center;
 }
 
 
@@ -626,7 +632,7 @@ video {
     width: 90%;
     height: 50px;
     color: #fff;
-    background-color: #e61d1d;
+    background-color: rgba(230, 29, 29, 0.86);;
     height: 50px;
 }
 
@@ -637,6 +643,7 @@ video {
     justify-content: center;
     margin: inherit;
     line-height: inherit;
+    align-items: center;
 }
 
 
@@ -732,13 +739,18 @@ video {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2%;
     margin-top: 4%;
+       border: 5px;
+    border-style: outset;
+    border-color: #90c71f;
+    border-radius: 15px;
+    
 }
 
 .sec_options {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+ 
 }
 
 .sec_options article {
@@ -936,6 +948,9 @@ video {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2%;
     text-align: center;
+    border: 2px;
+    border-style: inset;
+    border-color: #f39924;
 }
 
 .grp-ado-titre {
