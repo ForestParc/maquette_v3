@@ -41,35 +41,25 @@
     /*loader*/
     
 
-    
-    video {
-        right: inherit;
-        display: block !important;
-        left: inherit;
-        opacity: 1 !important;
-    }
-    
-    .play_video {
-        display: none;
-    }
-    
     .fa-2x {
         font-size: inherit;
     }
+    
     .fa-star {
         display: none !important;
     }
+    
     .bg_forest {
         background-color: dodgerblue !important;
         position: inherit;
         min-height: 680px;
     }
+    
     /*logo nav*/
     .logo_f a img:first-child {
-        width: 35%;
-        margin-left: inherit;
-        right: 50px;
+        width: 80%;
     }
+    
     .logo_f a img:nth-child(2) {
         width: 22%;
         height: 10%;
@@ -191,23 +181,18 @@
     }
     .doc-formule {
         height: 110px;
-        bottom: 50px;
     }
     .doc-formule1 {
         height: 160px;
-        bottom: 45px;
     }
     .doc-formule2 {
         height: 159px;
-        bottom: 44px;
     }
     .doc-formule3 {
         height: 138px;
-        bottom: 180px;
     }
     .doc-formule4 {
         height: 110px;
-        bottom: 180px;
     }
     .footer-doc-form,
     .footer-doc-form1,
@@ -226,7 +211,6 @@
     }
     .documentation .lien-reserv {
         position: relative;
-        bottom: 190px;
         padding-top: 9px;
         border-radius: 10px;
     }
@@ -247,7 +231,6 @@
     .laser {
         width: 75%;
         position: relative;
-        top: 80px;
         box-shadow: 1.5px 1.5px 9px black;
     }
     .parcours {
@@ -269,9 +252,9 @@
     /*ANNIVERSAIRE*/
     .sec_options {
         position: relative;
-        bottom: 25px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .sec_options article {
         width: 95%;
@@ -339,7 +322,6 @@
     .groupes {
         position: relative;
         top: 50px;
-        right: 35px;
         height: 750px;
         width: 270px;
     }
