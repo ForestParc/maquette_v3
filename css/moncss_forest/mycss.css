@@ -1143,14 +1143,6 @@ video {
     align-items: center;
 }
 
-footer .col-md-4:nth-child(3) {
-    margin-left: 12px;
-    width: 40px
-}
-
-footer .col-md-4 {
-    bottom: 5px;
-}
 
 .fa-facebook-square {
     color: rgb(12, 192, 251);

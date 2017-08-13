@@ -262,6 +262,7 @@
         align-items: center;
     }
     .sec_options article {
+        margin: inherit;
         width: 95%;
         height: 70%;
     }
