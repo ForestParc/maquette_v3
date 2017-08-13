@@ -1,7 +1,7 @@
 @media only screen and (max-width: 330px) {
     .formule, .formule1, .formule2, .formule3, .formule4, .formule5 {
-        position: relative;
-        left: 55px;
+        /*position: relative;
+        left: 55px;*/
         
     }
     .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
@@ -14,13 +14,9 @@
     }
     
     .grp-sec {
-        width: 700px ! important; 
+        width: 870px ! important; 
 }
-    .groupes {
-	background-color: transparent !important;
-    height: 570px;    
-        
-}
+
     .formule-edv {
 	 background-color: rgba(182, 255, 155, 0.5);
          height: 170%;
@@ -50,10 +46,14 @@
       font-size: 14px;  
 }
      .lien-reserv {
-	width: 80%;
+	width: 100%;
 }
     .lien_anniv {
         width: inherit;
+    }
+    
+    .form-anniv-laser p, .form-anniv-accro p, .form-anniv-pass {
+        font-size: 12px !important;
     }
     
     h3 {
