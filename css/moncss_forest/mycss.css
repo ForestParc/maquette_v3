@@ -1257,6 +1257,21 @@ footer .col-md-4 {
         padding-top: 10%;
     }
     
+    .formules-anniv {
+        
+        height: 100%;
+    }
+    
+    .organisation {
+        
+        height: 100%;
+    
+    }
+    
+    .reservation {
+        
+        height: 100%;
+    }
 }
 /* #################### MID SCREEN (Width = 1170px) #############*/
 
@@ -1275,6 +1290,20 @@ footer .col-md-4 {
         width: 70px;
     
     }
+    
+    .page_header {
+        
+        flex-direction: column;
+    }
+    
+    .page_header ul {
+        
+        margin-top: 50px;
+    }
+    .item_feature {
+        
+        height: 150px;
+    }
 }
 /* #################### MID SCREEN (Width = 1040px) #############*/
 
@@ -1289,6 +1318,20 @@ footer .col-md-4 {
         
         width: 400px;
         height: 75px;
+    }
+    
+    .page_header {
+        
+        flex-direction: column;
+    }
+    
+    .page_header ul {
+        
+        margin-top: 50px;
+    }
+    .item_feature {
+        
+        height: 150px;
     }
 }
     
