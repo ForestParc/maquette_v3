@@ -278,11 +278,11 @@ video {
 }
 
 .play_video {
-    position: fixed;
+    position: relative;
     height: 150px;
-    left: 45%;
-    right: 45%;
-    top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -741,7 +741,7 @@ video {
     margin-top: 4%;
        border: 5px;
     border-style: outset;
-    border-color: #90c71f;
+    border-color: #fff;
     border-radius: 15px;
     
 }
@@ -948,9 +948,9 @@ video {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2%;
     text-align: center;
-    border: 2px;
+    border: 5px;
     border-style: inset;
-    border-color: #f39924;
+    border-color: #fff;
 }
 
 .grp-ado-titre {
