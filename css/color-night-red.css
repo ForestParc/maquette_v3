@@ -103,8 +103,8 @@ body, .pageFade { background-color:#1a1d20; }
 
 .header ul.nav li ul li a{ color:#b0b0b0 !important; border: none; background-color:#212629; }
 .header ul.nav li ul li a:hover { color:#ffffff !important; background-color:#333333;	}
-.header ul.nav li ul li a.active { color:#eb1e41 !important; background-color:#212629; border: none; }
-.header ul.nav li ul li a.active:hover { color:#eb1e41 !important; background-color:#212629; border: none; }
+.header ul.nav li ul li a.active {  background-color:#212629; border: none; }
+.header ul.nav li ul li a.active:hover {  background-color:#212629; border: none; }
 .header ul li a { border: 1px solid #5a5a5a; }
 
 .header_content>ul>li .stroke{ background-color:#16191c; }
@@ -139,7 +139,7 @@ body, .pageFade { background-color:#1a1d20; }
 	.header ul.nav>li a.active ,
 	.header.menuType2 ul.nav>li a.active,
 	.header ul.nav>li a.active:hover,
-	.header.menuType2 ul.nav>li a.active:hover { color:#eb1e41 !important; background-color:#1a1b1c; }
+	.header.menuType2 ul.nav>li a.active:hover { background-color:#1a1b1c; }
 
 	.header ul.nav li ul li a,
 	.header.menuType2 ul.nav li ul li a { background-color:#1a1b1c;	}

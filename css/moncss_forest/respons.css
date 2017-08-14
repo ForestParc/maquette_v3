@@ -56,6 +56,15 @@
     }
     
     /*logo nav*/
+    
+    .nav li a {
+        letter-spacing: 4px !important;
+    }
+    
+   .header ul.nav>li a.active {
+        color: #ff9d00 !important;
+    }
+    
     .logo_f a img:first-child {
         width: 80%;
     }
@@ -84,6 +93,15 @@
     .actu {
         position: relative;
         top: 40px;
+    }
+    
+    #actu-news {
+        text-align: center;
+        font-size: 1em !important;
+    }
+    
+    .center_bg {
+        text-align: center;
     }
     /*footer*/
     
@@ -132,13 +150,15 @@
     .navigations {
         bottom: 20px !important;
     }
-    .fmslider_dots li a>span {
-        background-color: darkgreen;
-    }
     .fmEmbossBtn {
         background-color: darkgreen;
     }
     /*FORMULE ET TARIF*/
+    
+    .grp-titres .FM_md {
+        position: relative;
+        bottom: 15px;
+    } 
     
     .formule,
     .formule1,
@@ -160,6 +180,11 @@
         width: inherit;
         margin-left: 2%;
     }
+    
+    .documentation article {
+        height: inherit;
+    }
+    
     .descrip-form,
     .descrip-form1,
     .descrip-form2,
@@ -236,6 +261,7 @@
     .laser {
         width: 75%;
         position: relative;
+        bottom: 100px;
         box-shadow: 1.5px 1.5px 9px black;
     }
     .parcours {
