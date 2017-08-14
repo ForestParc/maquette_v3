@@ -96,14 +96,10 @@
   100% { -webkit-transform: matrix3d(3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
 }
 
-
-
-
 .animation-target {
   -webkit-animation: animation 7580ms linear both;
   animation: animation 7580ms linear both;
 }
-
 /* Generated with Bounce.js. Edit at https://goo.gl/jOXal5 */
 
 @-webkit-keyframes animation { 
@@ -155,5 +151,3 @@
   84.15% { -webkit-transform: matrix3d(3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% { -webkit-transform: matrix3d(3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
 }
-
-

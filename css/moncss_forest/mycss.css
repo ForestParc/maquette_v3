@@ -54,6 +54,7 @@ a,
 a:visited {
     color: inherit !important;
 }
+
 #modal-parcours {
     
     margin-top: 200px;
@@ -235,10 +236,6 @@ a:visited {
     background-image: url('../../assets/masquotte/corde.png');
     background-size: contain;
     background-position: top;
-    /*       -webkit-transform:rotate(2deg);
-    -moz-transform:rotate(2deg);
-    -o-transform:rotate(2deg);
-    -ms-transform:rotate(2deg);*/
 }
 
 
@@ -247,7 +244,6 @@ a:visited {
 .mCSB_container {
     background-color: dodgerblue;
 }
-
 
 /*// page 1 //*/
 
@@ -315,8 +311,6 @@ video {
     align-items: center;
     position: relative;
     align-items: center;
-    /*    border: none !important;
-    margin-top: -40px;*/
 }
 
 .description .image0 {
@@ -400,11 +394,12 @@ video {
 }
 
 .prix img {
-    width: 15%;
+    width: 25%;
+    height: 25%;
     margin-bottom: 20px;
 }
 
-/*FOrmule*/
+/*Formule*/
 
 .doc-formule {
     display: flex;
@@ -448,7 +443,6 @@ video {
 }
 
 .form_height {
-    /*height: 50% !important;*/
     border-radius: 20px;
 }
 
@@ -470,7 +464,6 @@ video {
     line-height: inherit;
     align-items: center;
 }
-
 
 /*Formule1*/
 
@@ -505,7 +498,6 @@ video {
 }
 
 .descrip-form1 {
-    /*font-size: 13px;*/
     margin-top: -2px;
 }
 
@@ -562,9 +554,6 @@ video {
 }
 
 .descrip-form2 {
-    /*
-    font-size: 11px;
-*/
     margin-top: -2px;
 }
 
@@ -654,7 +643,7 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(138, 131, 131, 0.74);
     margin: 1%;
     margin-bottom: 20px;
     padding: 1%;
@@ -695,6 +684,8 @@ video {
     border-radius: 12px;
     width: 100%;
 }
+
+/*PARCOURS*/
 
 .parcours {
     position: relative;
@@ -1297,6 +1288,10 @@ video {
         
         margin: 0.3%;
     }
+    
+     #footer .footer {
+        position: fixed !important;
+    }
 }
 /* #################### MID SCREEN (Width = 1170px) #############*/
 
@@ -1328,6 +1323,32 @@ video {
     .item_feature {
         
         height: 150px;
+    }
+    
+     #footer .footer {
+        position: fixed !important;
+    }
+    
+    /*formule_et_tarif*/
+    
+    .documentation {
+        width: 90%;
+    }
+    
+    .formule, .formule1, .formule2, .formule3, .formule4 {
+        font-size: 1em;
+    }
+    
+    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
+        line-height: 15px;
+    }
+    
+    .footer-doc-form, .footer-doc-form1, .footer-doc-form2, .footer-doc-form3 {
+        padding: 15px;
+    }
+    
+    .footer-doc-form p, .footer-doc-form1 p, .footer-doc-form2 p, .footer-doc-form3 p {
+        font-size: 0.8em;
     }
 }
 /* #################### MID SCREEN (Width = 1040px) #############*/
@@ -1385,5 +1406,23 @@ video {
         height: 50px;
     }
     
+
+    .documentation article {
+        height: 800px;
+    }
+    
+    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
+        font-size: small;
+    }
     
 }
+   
+    /* #################### MID SCREEN (Width = 700px) #############*/
+    
+    @media only screen and (max-width: 700px) {
+            .footer-doc-form, .footer-doc-form1, .footer-doc-form2, .footer-doc-form3 {
+        font-size: 0.8em;
+    }
+             
+}    
+    
