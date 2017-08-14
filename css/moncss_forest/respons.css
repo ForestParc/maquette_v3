@@ -3,7 +3,7 @@
 @media only screen and (max-width: 420px) {
     
     h3 {
-        letter-spacing: 1px;
+        letter-spacing: 2px;
     }
     
     /*loader*/
@@ -289,6 +289,7 @@
     }
     .sec_options article {
         margin: inherit;
+        padding: 10px;
         width: 95%;
         height: 70%;
     }
@@ -299,8 +300,8 @@
         background-color: rgba(225, 131, 178, 0.68);
     }
     .organisation p {
-        font-size: 11px;
-        line-height: 12px;
+        font-size: 1em;
+        line-height: 18px;
     }
     .organisation h3 {
         line-height: 12px;
@@ -318,8 +319,17 @@
     .formules-anniv .lien-reserv p {
         line-height: 12px;
     }
-    .formule-edv {
-        height: 120%;
+    
+    .formules-anniv h3, .organisation h3, .reservation h3  {
+        letter-spacing: 4px;
+        font-size: 1.3em !important;
+    }
+    
+    
+    .formule-edv, .formule-ado, .formule-adulte {
+        height: 100%;
+        width: 100%;
+        padding: 8px;
     }
     .form-anniv-laser p,
     .form-anniv-accro p,
@@ -332,7 +342,8 @@
     .form-anniv-pass {
         height: 35px;
         position: relative;
-        padding: 2px;
+        border-radius: 5px;
+        margin: 2px;
     }
     /*GROUPES*/
     .grp-ado-titre h2 {
@@ -345,7 +356,6 @@
         font-size: 15px !important;
     }
     .grp-sec {
-        width: 870px !important;
         display: flex;
         flex-direction: column;
         align-items: inherit !important;
@@ -353,8 +363,8 @@
     .groupes {
         position: relative;
         top: 50px;
-        height: 750px;
-        width: 270px;
+        height: 100%;
+        width: 70%;
     }
     .form-accro p,
     .form-laser p,
