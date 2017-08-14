@@ -1278,14 +1278,28 @@ video {
         height: 100%;
     }
     
+    .form-anniv-accro, .form-anniv-laser, .form-anniv-pass {
+        margin-bottom: 5px;
+        width: 80%;
+    }
+    
+    .form-anniv-accro p, .form-anniv-laser p, .form-anniv-pass p {
+        font-size: inherit;
+        letter-spacing: 5px;
+    }
+    
     .sec_options {
         
-        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        
     }
     
     .sec_options article {
         
         margin: 0.3%;
+        width: 100%;
+        padding: 8px;
     }
     
      #footer .footer {
@@ -1379,20 +1393,7 @@ video {
         height: 150px;
     }
     
-    .form-anniv-accro p {
     
-        font-size: 11px;
-    }
-    
-    .form-anniv-laser p {
-        
-        font-size: 11px;
-    }
-    
-    .form-anniv-pass p {
-        
-        font-size: 11px;
-    }
 }
     
 /* #################### MID SCREEN (Width = 1024px) #############*/
@@ -1404,7 +1405,6 @@ video {
         width: 275px;
         height: 50px;
     }
-    
 
     .documentation article {
         height: 800px;
@@ -1412,6 +1412,10 @@ video {
     
     .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
         font-size: small;
+    }
+    
+    .form-anniv-accro p, .form-anniv-laser p, .form-anniv-pass p {
+        font-size: 0.8em;
     }
     
 }
@@ -1422,6 +1426,10 @@ video {
             .footer-doc-form, .footer-doc-form1, .footer-doc-form2, .footer-doc-form3 {
         font-size: 0.8em;
     }
+        
+      .form-anniv-accro p, .form-anniv-laser p, .form-anniv-pass p {
+        letter-spacing: 3px;
+    }    
              
 }    
     
