@@ -104,6 +104,7 @@
     .position_video {
         align-content: center;
         display: flex;
+        height: auto;
     }
     
     /*footer*/
