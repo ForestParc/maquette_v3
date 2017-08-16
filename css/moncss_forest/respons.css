@@ -67,7 +67,7 @@
     
     .logo_f a img{
     background-position: center;
-    background-image: url("http://i.imgur.com/OaMg6KK.png");
+    background-image: url("http://i.imgur.com/iBjf40O.png");
     background-size: contain;
     background-repeat: no-repeat;
     }
@@ -75,16 +75,6 @@
 
     /*img presentation*/
     
-    .image0bis {
-        width: 120px !important;
-        height: 80px !important;
-    }
-    .img-saut {
-        height: 120px;
-    }
-    .home_img img {
-        height: 80px;
-    }
     .logo_f2 {
      display: none;
     }
@@ -98,9 +88,24 @@
         font-size: 1em !important;
     }
     
+    #actu-title {
+    margin-bottom: 50px;
+    text-align: center;
+    }
+    
     .center_bg {
         text-align: center;
     }
+    
+    .play_video {
+        display: none;
+    }
+    
+    .position_video {
+        align-content: center;
+        display: flex;
+    }
+    
     /*footer*/
     
    #footer .footer {
