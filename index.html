@@ -313,7 +313,9 @@
                                 <div class="row-fluid">
                                     <section class="description">
                                         <div class="font_img_bgVideo">
-                                            <video controls class="video_etat1 video_forest actu"></video>
+                                           <div class="position_video">
+                                            <iframe class="video_etat1" src="https://player.vimeo.com/video/229723937" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                            </div>
                                             <img onclick="ShowThisThing()" class="play_video" src="assets/play.png">
                                         </div>
                                     </section>
@@ -943,8 +945,6 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
         <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
-        <!--<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
-        <script type="text/javascript" src="js/supersized.shutter.min.js"></script>-->
         <script type="text/javascript" src="js/jquery.fitvids.js"></script>
         <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
         <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
@@ -981,11 +981,12 @@
                 radius: 500
               }).addTo(mymap);
               marker.bindPopup("<b>Forest Parc !</b><br/>Nos coordonnées GPS sont: 44.068098, 4.03729").openPopup();
+            
         /* this is my js for my wonderfull video <3 */
             function ShowThisThing() {
                 $(".play_video").css("display", "none"); 
-                $(".video_etat1").html("<source src='video_forestparc/pubfp.webm' type='video/webm'>");
-                $("video").removeClass("video_etat1").addClass("video_etat2");
+                $(".video_etat1").html('<iframe src="https://player.vimeo.com/video/229723937"></iframe>');
+                $(".video_etat1").removeClass("video_etat1").addClass("video_etat2");
             };
             $(document).ready(function() {     
             /* Site Main plug-in initilize */ 
