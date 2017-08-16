@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: "comic";
     src: url("../../fonts/IHATCS__.TTF");
 }
@@ -56,7 +56,6 @@ a:visited {
 }
 
 #modal-parcours {
-    
     margin-top: 200px;
 }
 
@@ -147,17 +146,18 @@ a:visited {
     color: darkorange !important;
 }
 
-.logo_f a {
+
+.logo_f a img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    height: 90px;
     padding: 1%;
-}
-
-.logo_f a img {
-    height: 75px;
-    width: auto;
+    background-position: center;
+    background-image: url("http://i.imgur.com/b1jtLyS.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .logo_f2 {
@@ -245,6 +245,7 @@ a:visited {
     background-color: dodgerblue;
 }
 
+
 /*// page 1 //*/
 
 
@@ -310,7 +311,6 @@ a:visited {
     justify-content: center;
     align-items: center;
     position: relative;
-    align-items: center;
 }
 
 .description .image0 {
@@ -356,7 +356,6 @@ a:visited {
     border: 4px;
     border-left-style: groove;
     border-right-style: groove;
-    
 }
 
 .documentation section {
@@ -398,6 +397,7 @@ a:visited {
     margin-bottom: 20px;
 }
 
+
 /*Formule*/
 
 .doc-formule {
@@ -437,8 +437,11 @@ a:visited {
     font-size: 24px;
 }
 
-.descrip-form, .descrip-form1, .descrip-form2, .descrip-form3  {
-   text-align: center;
+.descrip-form,
+.descrip-form1,
+.descrip-form2,
+.descrip-form3 {
+    text-align: center;
 }
 
 .form_height {
@@ -463,6 +466,7 @@ a:visited {
     line-height: inherit;
     align-items: center;
 }
+
 
 /*Formule1*/
 
@@ -620,7 +624,8 @@ a:visited {
     width: 90%;
     height: 50px;
     color: #fff;
-    background-color: rgba(230, 29, 29, 0.86);;
+    background-color: rgba(230, 29, 29, 0.86);
+    ;
     height: 50px;
 }
 
@@ -675,7 +680,6 @@ a:visited {
 
 .width-lien {
     width: 90% !important;
-    
 }
 
 .lien-reserv {
@@ -683,6 +687,7 @@ a:visited {
     border-radius: 12px;
     width: 100%;
 }
+
 
 /*PARCOURS*/
 
@@ -718,29 +723,26 @@ a:visited {
     width: 20%;
     cursor: pointer;
     margin-top: 100px;
-    
 }
 
 .options {
     position: relative;
     top: 50px;
     width: 70%;
-     height: auto;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2%;
     margin-top: 4%;
-       border: 5px;
+    border: 5px;
     border-style: outset;
     border-color: #fff;
     border-radius: 15px;
-    
 }
 
 .sec_options {
     display: flex;
     align-items: center;
     justify-content: center;
- 
 }
 
 .sec_options article {
@@ -1133,7 +1135,6 @@ a:visited {
     align-items: center;
 }
 
-
 .fa-facebook-square {
     color: rgb(12, 192, 251);
     position: relative;
@@ -1172,264 +1173,221 @@ a:visited {
     margin-right: 15px;
 }
 
-#mapid { 
-    
+#mapid {
     height: 400px;
     width: 800px;
 }
 
 #contact_forest {
-    
     height: 75px;
     width: 150px;
 }
+
 .page_header {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
     padding: 50px 50px 0 50px;
 }
 
 .send-mail {
-    
     margin-top: 100px;
 }
 
 .title i {
- 
     margin-right: 10px;
 }
 
 .item_feature {
-    
     height: 350px;
 }
+
 
 /* #################### FAT SCREEN (Width = 1600px) #############*/
 
 @media only screen and (max-width: 1600px) {
-    
     .header ul.nav>li a {
-        
         letter-spacing: inherit;
     }
-
-/* #################### MID SCREEN (Width = 1400px) #############*/
-
-@media only screen and (max-width: 1400px) {
     
-    .form-anniv-accro p {
-    
-        font-size: 14px;
-    }
-    
-    .form-anniv-laser p {
-        
-        font-size: 14px;
-    }
-    
-    .form-anniv-pass p {
-        
-        font-size: 14px;
+    .bg_forest {
+            height: 100%;
     }
 }
-/* #################### MID SCREEN (Width = 1340px) #############*/
-
-@media only screen and (max-width: 1340px) {
-    
-    .laser {
-    
-        margin-top: 125px;
-        width: 30%;
+    /* #################### MID SCREEN (Width = 1400px) #############*/
+    @media only screen and (max-width: 1400px) {
+        .form-anniv-accro p, .form-anniv-laser p, .form-anniv-pass p {
+            font-size: 14px;
+        }
+      
     }
-    
-     .header ul.nav>li a {
+    /* #################### MID SCREEN (Width = 1340px) #############*/
+    @media only screen and (max-width: 1340px) {
+        .laser {
+            margin-top: 125px;
+            width: 30%;
+        }
+        .header ul.nav>li a {
+            font-size: 12px !important;
+        }
+        .header_content ul li a {
+            padding: 2px 4px;
+        }
+        .actu {
+            padding-bottom: 10%;
+            padding-top: 10%;
+        }
+        .formules-anniv {
+            height: 100%;
+        }
+        .organisation {
+            height: 100%;
+        }
+        .reservation {
+            height: 100%;
+        }
+        .form-anniv-accro,
+        .form-anniv-laser,
+        .form-anniv-pass {
+            margin-bottom: 5px;
+            width: 80%;
+        }
+        .form-anniv-accro p,
+        .form-anniv-laser p,
+        .form-anniv-pass p {
+            font-size: inherit;
+            letter-spacing: 5px;
+        }
+        .sec_options {
+            display: flex;
+            flex-direction: column;
+        }
+        .sec_options article {
+            margin: 0.3%;
+            width: 100%;
+            padding: 8px;
+        }
+        #footer .footer {
+            position: fixed !important;
+        }
+    }
+    /* #################### MID SCREEN (Width = 1170px) #############*/
+    @media only screen and (max-width: 1170px) {
+        #forest_load {
+            height: 40px;
+            width: 70px;
+        }
+        #parcours_load {
+            height: 35x;
+            width: 60px;
+        }
+        #lazer_load {
+            height: 40px;
+            width: 70px;
+        }
+        .page_header {
+            flex-direction: column;
+        }
+        .page_header ul {
+            margin-top: 50px;
+        }
+        .item_feature {
+            height: 150px;
+        }
+        #footer .footer {
+            position: fixed !important;
+        }
+        /*formule_et_tarif*/
+        .documentation {
+            width: 90%;
+        }
+        .formule,
+        .formule1,
+        .formule2,
+        .formule3,
+        .formule4 {
+            font-size: 1em;
+        }
+        .descrip-form,
+        .descrip-form1,
+        .descrip-form2,
+        .descrip-form3,
+        .descrip-form4 {
+            line-height: 15px;
+        }
+        .footer-doc-form,
+        .footer-doc-form1,
+        .footer-doc-form2,
+        .footer-doc-form3 {
+            padding: 15px;
+        }
+        .footer-doc-form p,
+        .footer-doc-form1 p,
+        .footer-doc-form2 p,
+        .footer-doc-form3 p {
+            font-size: 0.8em;
+        }
+    }
+    /* #################### MID SCREEN (Width = 1040px) #############*/
+    @media only screen and (max-width: 1040px) {
         
-        font-size: 12px !important;
-    }
-    
-    .header_content ul li a {
+        .laser {
+            margin-top: 175px;
+            height: 720px;
+            width: 400px;
+        }
+        .logo_f a img {
+            width: 400px;
+            height: 75px;
+        }
+        .page_header {
+            flex-direction: column;
+        }
+        .page_header ul {
+            margin-top: 50px;
+        }
+        .item_feature {
+            height: 150px;
+        }
         
-        padding: 2px 4px;
+        .organisation p {
+            font-size: 1.5em;
+        }
     }
-    
-    .actu {
-        
-        padding-bottom: 10%;
-        padding-top: 10%;
+    /* #################### MID SCREEN (Width = 1024px) #############*/
+    @media only screen and (max-width: 1024px) {
+        .logo_f a img {
+            width: 275px;
+            height: 50px;
+        }
+        .documentation article {
+            height: 800px;
+        }
+        .descrip-form,
+        .descrip-form1,
+        .descrip-form2,
+        .descrip-form3,
+        .descrip-form4 {
+            font-size: small;
+        }
+        .form-anniv-accro p,
+        .form-anniv-laser p,
+        .form-anniv-pass p {
+            font-size: 0.8em;
+        }
     }
-    
-    .formules-anniv {
-        
-        height: 100%;
-    }
-    
-    .organisation {
-        
-        height: 100%;
-    
-    }
-    
-    .reservation {
-        
-        height: 100%;
-    }
-    
-    .form-anniv-accro, .form-anniv-laser, .form-anniv-pass {
-        margin-bottom: 5px;
-        width: 80%;
-    }
-    
-    .form-anniv-accro p, .form-anniv-laser p, .form-anniv-pass p {
-        font-size: inherit;
-        letter-spacing: 5px;
-    }
-    
-    .sec_options {
-        
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
-    .sec_options article {
-        
-        margin: 0.3%;
-        width: 100%;
-        padding: 8px;
-    }
-    
-     #footer .footer {
-        position: fixed !important;
-    }
-}
-/* #################### MID SCREEN (Width = 1170px) #############*/
-
-@media only screen and (max-width: 1170px) {
-    
-    #forest_load {
-        height: 40px;
-        width: 70px;    
-    }   
-    #parcours_load {
-        height: 35x;
-        width: 60px;    
-    } 
-    #lazer_load {
-        height: 40px;
-        width: 70px;
-    
-    }
-    
-    .page_header {
-        
-        flex-direction: column;
-    }
-    
-    .page_header ul {
-        
-        margin-top: 50px;
-    }
-    .item_feature {
-        
-        height: 150px;
-    }
-    
-     #footer .footer {
-        position: fixed !important;
-    }
-    
-    /*formule_et_tarif*/
-    
-    .documentation {
-        width: 90%;
-    }
-    
-    .formule, .formule1, .formule2, .formule3, .formule4 {
-        font-size: 1em;
-    }
-    
-    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
-        line-height: 15px;
-    }
-    
-    .footer-doc-form, .footer-doc-form1, .footer-doc-form2, .footer-doc-form3 {
-        padding: 15px;
-    }
-    
-    .footer-doc-form p, .footer-doc-form1 p, .footer-doc-form2 p, .footer-doc-form3 p {
-        font-size: 0.8em;
-    }
-}
-/* #################### MID SCREEN (Width = 1040px) #############*/
-
-@media only screen and (max-width: 1040px) {
-    
-    .laser {
-        
-        margin-top: 175px;
-    }
-    
-    .logo_f a img{
-        
-        width: 400px;
-        height: 75px;
-    }
-    
-    .page_header {
-        
-        flex-direction: column;
-    }
-    
-    .page_header ul {
-        
-        margin-top: 50px;
-    }
-    .item_feature {
-        
-        height: 150px;
-    }
-    
-    
-}
-    
-/* #################### MID SCREEN (Width = 1024px) #############*/
-
-@media only screen and (max-width: 1024px) {
-    
-    .logo_f a img{
-        
-        width: 275px;
-        height: 50px;
-    }
-
-    .documentation article {
-        height: 800px;
-    }
-    
-    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
-        font-size: small;
-    }
-    
-    .form-anniv-accro p, .form-anniv-laser p, .form-anniv-pass p {
-        font-size: 0.8em;
-    }
-    
-}
-   
     /* #################### MID SCREEN (Width = 700px) #############*/
-    
     @media only screen and (max-width: 700px) {
-            .footer-doc-form, .footer-doc-form1, .footer-doc-form2, .footer-doc-form3 {
-        font-size: 0.8em;
+        .footer-doc-form,
+        .footer-doc-form1,
+        .footer-doc-form2,
+        .footer-doc-form3 {
+            font-size: 0.8em;
+        }
+        .form-anniv-accro p,
+        .form-anniv-laser p,
+        .form-anniv-pass p {
+            letter-spacing: 3px;
+        }
     }
-        
-      .form-anniv-accro p, .form-anniv-laser p, .form-anniv-pass p {
-        letter-spacing: 3px;
-    }    
-             
-}    
-    

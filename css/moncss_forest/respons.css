@@ -65,16 +65,14 @@
         color: #ff9d00 !important;
     }
     
-    .logo_f a img:first-child {
-        width: 80%;
+    .logo_f a img{
+    background-position: center;
+    background-image: url("http://i.imgur.com/OaMg6KK.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     }
     
-    .logo_f a img:nth-child(2) {
-        width: 22%;
-        height: 10%;
-        position: relative;
-        right: 50px;
-    }
+
     /*img presentation*/
     
     .image0bis {
@@ -334,7 +332,7 @@
     .form-anniv-laser p,
     .form-anniv-accro p,
     .form-anniv-pass p {
-        font-size: 13px;
+        font-size: 12px;
         letter-spacing: inherit;
     }
     .form-anniv-accro,
