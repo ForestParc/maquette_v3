@@ -1,7 +1,11 @@
+ /* MOBILE RESPONSIVE IPHONE 5 */
 @media only screen and (max-width: 330px) {
-    .logo_f a img:first-child {
-        width: 80%;
+   
+    .logo_f a div {
+        background-image: url(http://i.imgur.com/iBjf40O.png);
+        background-position: left;
     }
+    
     .descrip-form,
     .descrip-form1,
     .descrip-form2,
@@ -61,8 +65,20 @@
         font-size: 1em !important;
         top: 8px;
     }
+    
+    #mapid {
+        bottom: 35px;
+    }
 }
 
+ /*JUST FOR LOGO MOBILE*/
+@media only screen and (max-width: 370px) {
+       .logo_f a div {
+        background-image: url(http://i.imgur.com/iBjf40O.png);
+        background-position: left;
+    }
+}
+ /*JUST FOR BACKGROUND MOBILE*/
 @media only screen and (max-width: 1130px) {
     .bg_forest {
         background-color: dodgerblue !important;
