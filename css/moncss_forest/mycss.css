@@ -1376,6 +1376,10 @@ a:visited {
         .form-anniv-pass p {
             font-size: 0.8em;
         }
+        
+        .doc-form-sec, .doc-form1-sec, .doc-form2-sec, .doc-form3-sec {
+            height: 80px !important;
+        }
     }
     /* #################### MID SCREEN (Width = 700px) #############*/
     @media only screen and (max-width: 700px) {
