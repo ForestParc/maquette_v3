@@ -18,7 +18,7 @@
         font-size: 12px;
     }
     .organisation p {
-        font-size: 0.6em;
+        font-size: 10.7px; /* taille spé, petit média */
     }
     .formule-edv {
         background-color: rgba(182, 255, 155, 0.5);
@@ -67,7 +67,7 @@
     }
     
     #mapid {
-        bottom: 35px;
+        /*bottom: 35px;*/
     }
 }
 

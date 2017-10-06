@@ -28,9 +28,13 @@ body {
 }
 
 h1,
-h3,
 h4 {
     font-family: "bosk";
+    color: #3A1B02;
+    letter-spacing: 5px;
+}
+
+h3 {
     color: #3A1B02;
     letter-spacing: 5px;
 }
@@ -274,6 +278,7 @@ a:visited {
     align-items: center;
 }
 
+
 .play_video {
     position: absolute;
     height: 150px;
@@ -442,6 +447,7 @@ a:visited {
 .descrip-form2,
 .descrip-form3 {
     text-align: center;
+    line-height: 16px;
 }
 
 .form_height {
@@ -684,7 +690,6 @@ a:visited {
 
 .lien-reserv {
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 12px;
     width: 100%;
 }
 
@@ -698,9 +703,7 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
+    box-shadow: #292020 2px 4px 9px;
 }
 
 .box-sec {
@@ -723,6 +726,7 @@ a:visited {
     width: 20%;
     cursor: pointer;
     margin-top: 100px;
+    box-shadow: #292020 2px 4px 9px;
 }
 
 .options {
@@ -797,15 +801,13 @@ a:visited {
 }
 
 .options .organisation h3 {
-    color: #D71374 !important;
-    text-shadow: 1px 1px 2px #000;
+    color: #311905; !important;
     font-size: 2em;
     text-align: center;
 }
 
 .options .reservation h3 {
-    color: #137BFD;
-    text-shadow: 1px 1px 2px #000;
+    color: #311905;
 }
 
 .options .reservation p {
@@ -836,9 +838,8 @@ a:visited {
 
 .formules-anniv h3 {
     font-size: 2em;
-    color: #2c8e03;
+    color: #311905;
     text-align: center;
-    text-shadow: 1px 1px 2px #000;
 }
 
 .form-anniv-accro {
@@ -937,7 +938,7 @@ a:visited {
     top: 60px;
     width: 900px;
     height: 450px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.69);
     border-radius: 2%;
     text-align: center;
     border: 5px;
@@ -1198,11 +1199,6 @@ a:visited {
 .title i {
     margin-right: 10px;
 }
-
-.item_feature {
-    height: 350px;
-}
-
 
 /* #################### FAT SCREEN (Width = 1600px) #############*/
 
