@@ -259,15 +259,7 @@
         padding-top: 9px;
         border-radius: 10px;
     }
-    .doc-form-sec img,
-    .doc-form1-sec img,
-    .doc-form2-sec img,
-    .doc-form3-sec img,
-    .doc-form4-sec img {
-        /* width: 40px;
-        height: 40px;*/
-        display: none;
-    }
+
     .doc-form4-sec {
         position: relative;
         right: 30px;
