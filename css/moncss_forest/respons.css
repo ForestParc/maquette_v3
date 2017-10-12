@@ -476,4 +476,12 @@
     .video_etat1 {
         display: block;
     }
+    
+    .play_video {
+        display: none;
+    }
+    .font_img_bgVideo {
+        height: inherit;
+        top: 120px;
+    }
 }

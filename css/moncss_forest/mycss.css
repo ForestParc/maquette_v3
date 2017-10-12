@@ -1365,7 +1365,7 @@ a:visited {
         }
     }
     /* #################### MID SCREEN (Width = 700px) #############*/
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 800px) {
         .footer-doc-form,
         .footer-doc-form1,
         .footer-doc-form2,
@@ -1377,4 +1377,17 @@ a:visited {
         .form-anniv-pass p {
             letter-spacing: 3px;
         }
+        
+            /* accueil */
+    .video_etat1 {
+        display: block;
+    }
+    
+    .play_video {
+        display: none;
+    }
+    .font_img_bgVideo {
+        height: inherit;
+        top: 120px;
+    }
     }
