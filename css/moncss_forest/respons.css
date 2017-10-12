@@ -11,55 +11,29 @@
         display: flex;
         justify-content: space-between;
     }
-    .arbre_load {
-        flex-direction: row;
-        position: absolute;
-        top: 480px;
-        height: 130px;
-        width: 120px;
-    }
     .forest_load {
         position: absolute;
         height: 60px;
         width: 80px;
         top: 110px;
     }
-    .parcours_load {
-        position: absolute;
-        height: 40px;
-        width: 60px;
-        top: 420px;
-        left: 150px;
-    }
-    .lazer_load {
-        position: absolute;
-        height: 50px;
-        width: 70px;
-        top: 220px;
-        left: 150px;
-    }
     /*loader*/
-    
 
     .fa-2x {
         font-size: inherit;
-    }
-    
+    } 
     .fa-star {
         display: none !important;
     }
-    
     .font_img_bgVideo {
         height: inherit !important;
         top: 80px;
     }
-    
     .bg_forest {
         background-color: dodgerblue !important;
         position: inherit;
         min-height: 680px;
     }
-    
     /*logo nav*/
     
     .nav li a {
@@ -388,13 +362,11 @@
         position: relative;
         top: 8px;
     }
-    
     .form-accro,  .form-laser,  .form-pass  {
         height: 40px;
         padding: 15px;
         margin-bottom: 5px;
-    }
-    
+    } 
     #mapid {
         position: relative;
         bottom: 70px;
@@ -402,7 +374,106 @@
     }
 }
 
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (max-width: 640px) {
+    
+        /*GROUPES*/
+    .grp-ado-titre h2 {
+        font-size: 20px !important;
+    }
+    .grp-ado-titre h3 {
+        font-size: 15px !important;
+    }
+    .grp-ado-titre h4 {
+        font-size: 15px !important;
+    }
+    .grp-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: inherit !important;
+    }
+    .groupes {
+        position: relative;
+        top: 50px;
+        height: 100%;
+        width: 70%;
+    }
+    .form-accro p,
+    .form-laser p,
+    .form-pass p {
+        font-size: medium;
+        position: relative;
+        top: 8px;
+    }
+    .form-accro,  .form-laser,  .form-pass  {
+        height: 40px;
+        padding: 15px;
+        margin-bottom: 5px;
+    } 
+    #mapid {
+        position: relative;
+        bottom: 70px;
+        height: 250px;
+    }
+    
+    .formule-edv, .formule-ado, .formule-adulte {
+        height: 100%;
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 5px;
+    }
+    /* parcour */
+     .parcour_imgForest { 
+        height: 310px !important;
+        width: 100% !important;
+    }
+    
+    .parcours {
+    position: absolute;
+    top: 30%;
+    width: 87%;
+
+    }
+    
+    /* formules et tarifs */
+    .doc-formule,
+    .doc-formule1,
+    .doc-formule2,
+    .doc-formule3,
+    .doc-formule4 {
+        position: relative;
+        width: 100%;
+    }
+    
+    .prix img {
+    width: 25%;
+    }
+    
+    .footer-doc-form p, .footer-doc-form1 p, .footer-doc-form2 p, .footer-doc-form3 p {
+        font-size: 15px;
+        font-family: inherit;
+        letter-spacing: 1px;
+    }
+    
+    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
+        font-size: medium;
+    }
+    
+    .formule, .formule1, .formule2, .formule3, .formule4 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .documentation section {
+        text-align: center;
+    }
+    
+    .doc-form-sec {
+        margin-right: inherit;
+    }
     
     
+    /* accueil */
+    .video_etat1 {
+        opacity: 1 !important;
+    }
 }
