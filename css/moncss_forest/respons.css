@@ -474,6 +474,6 @@
     
     /* accueil */
     .video_etat1 {
-        opacity: 1 !important;
+        display: block;
     }
 }
