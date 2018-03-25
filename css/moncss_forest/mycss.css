@@ -879,11 +879,12 @@ a:visited {
 
 .grp-titres {
     position: relative;
-    top: 38px;
+    top: 18px;
 }
 
 .grp-titres h3 {
     position: relative;
+    top: 32px;
     font-size: 1.6em;
 }
 
