@@ -1114,6 +1114,7 @@ a:visited {
 
 #actu-title {
     margin-bottom: 50px;
+    margin-top: 5% ! important;
     color: #000 !important;
 }
 
@@ -1131,6 +1132,8 @@ a:visited {
     background-color: #ffffff38;
     border-radius: 4px;
     padding: 4px;
+    height: 400px;
+    width: 650px;
 }
 
 #fb_icon {
