@@ -1,11 +1,11 @@
- /* MOBILE RESPONSIVE IPHONE 5 */
+/* MOBILE RESPONSIVE IPHONE 5 */
 @media only screen and (max-width: 330px) {
    
     .logo_f a div {
         background-image: url(http://i.imgur.com/iBjf40O.png);
         background-position: left;
     }
-    
+
     .descrip-form,
     .descrip-form1,
     .descrip-form2,
@@ -18,7 +18,7 @@
         font-size: 12px;
     }
     .organisation p {
-        font-size: 10.7px; /* taille spé, petit média */
+        font-size: 10.7px;
     }
     .formule-edv {
         background-color: rgba(182, 255, 155, 0.5);
@@ -64,10 +64,6 @@
     h3 {
         font-size: 1em !important;
         top: 8px;
-    }
-    
-    #mapid {
-        /*bottom: 35px;*/
     }
 }
 

@@ -1,11 +1,11 @@
 /*SMARTPHONE */
 
 @media only screen and (max-width: 420px) {
-    
+
     h3 {
         letter-spacing: 2px;
     }
-    
+
     /*loader*/
     .loader div {
         display: flex;
@@ -18,10 +18,9 @@
         top: 110px;
     }
     /*loader*/
-
     .fa-2x {
         font-size: inherit;
-    } 
+    }
     .fa-star {
         display: none !important;
     }
@@ -35,120 +34,130 @@
         min-height: 680px;
     }
     /*logo nav*/
-    
     .nav li a {
         letter-spacing: 4px !important;
     }
-    
-   .header ul.nav>li a.active {
+
+    .header ul.nav > li a.active {
         color: #ff9d00 !important;
     }
-    
-    .logo_f a img{
-    background-position: center;
-    background-image: url("http://i.imgur.com/iBjf40O.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+
+    .logo_f a img {
+        background-position: center;
+        background-image: url("http://i.imgur.com/iBjf40O.png");
+        background-size: contain;
+        background-repeat: no-repeat;
     }
-    
 
     /*img presentation*/
-    
-    .logo_f2 {
-     display: none;
-    }
     .actu {
         position: relative;
-        top: 40px;
+    }
+
+    .actualite {
+        flex-direction: column;
     }
     
+    .section-actu {
+        height: inherit;
+        width: inherit;
+    }
+    
+    .nopaddingtop {
+        padding-top: inherit;
+    }
+
     #actu-news {
         text-align: center;
         font-size: 1em !important;
     }
-    
+
     #actu-title {
-    margin-bottom: 50px;
-    text-align: center;
+        margin-bottom: 50px;
+        text-align: center;
     }
-    
+
     .center_bg {
         text-align: center;
     }
-    
+
     .play_video {
         display: none;
     }
-    
+
     .position_video {
         align-content: center;
         display: flex;
         height: auto;
     }
-    
+
     /*footer*/
-    
-   #footer .footer {
+    #footer .footer {
         position: fixed !important;
     }
-    
-    .row-footer  {
 
-    display: flex;
-    justify-content: inherit;
-    width: 150%;
-
+    .row-footer {
+        display: flex;
+        justify-content: inherit;
+        width: 150%;
     }
-    
+
     #email_nav {
         font-size: 1em;
     }
-    
+
     .tiny_font {
         display: none;
     }
+
     .foo i {
         padding: 1px;
         margin: 3px;
         position: relative;
     }
+
     .masquotte {
         display: none;
     }
+
     .corde {
         display: none;
     }
+
     p {
         font-size: 10px;
     }
+
     /* logo forest contact  */
     .bold_weight img {
         height: 100px;
         width: 300px;
     }
+
     .contactPage {
         background-color: dodgerblue !important;
     }
-    
+
     .page_header ul {
         bottom: 50px;
         position: relative;
     }
-    
+
     /* bouton slider*/
     .navigations {
         bottom: 20px !important;
     }
+
     .fmEmbossBtn {
         background-color: darkgreen;
     }
+
     /*FORMULE ET TARIF*/
-    
     .grp-titres .FM_md {
         position: relative;
         bottom: 15px;
-    } 
-    
+    }
+
     .formule,
     .formule1,
     .formule2,
@@ -159,21 +168,22 @@
         position: relative;
         letter-spacing: 2px;
     }
+
     .formule4 {
         position: relative;
         top: 7px;
-        left: 25px;
     }
+
     .documentation {
         display: block;
         width: inherit;
         margin-left: 2%;
     }
-    
+
     .documentation article {
         height: inherit;
     }
-    
+
     .descrip-form,
     .descrip-form1,
     .descrip-form2,
@@ -181,37 +191,26 @@
     .descrip-form4 {
         position: relative;
         font-size: 0.8em;
-        line-height: 12px;
+        line-height: 22px;
     }
+
     .descrip-form1 {
         bottom: 5px;
     }
+
     .descrip-form2 {
         bottom: 5px;
     }
+
     .doc-formule,
     .doc-formule1,
     .doc-formule2,
     .doc-formule3,
     .doc-formule4 {
         position: relative;
-        width: 100%;
+        width: 160px;
     }
-    .doc-formule {
-        height: 110px;
-    }
-    .doc-formule1 {
-        height: 160px;
-    }
-    .doc-formule2 {
-        height: 159px;
-    }
-    .doc-formule3 {
-        height: 138px;
-    }
-    .doc-formule4 {
-        height: 110px;
-    }
+
     .footer-doc-form,
     .footer-doc-form1,
     .footer-doc-form2,
@@ -226,7 +225,7 @@
     .footer-doc-form3 p,
     .footer-doc-form4 p {
         font-size: 14px;
-        line-height: 12px;
+        line-height: 17px;
     }
     .documentation .lien-reserv {
         position: relative;
@@ -241,7 +240,6 @@
     /*LASER*/
     .laser {
         width: 75%;
-        height: inherit;
         position: relative;
         bottom: 100px;
         box-shadow: 1.5px 1.5px 9px black;
@@ -293,28 +291,31 @@
     .reservation p {
         line-height: 12px;
     }
-    
+
     .lien-reserv {
         height: 100%;
     }
-    
+
     .lien-reserv p {
         position: relative;
-        top: 5px;
         line-height: 13px;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .formules-anniv .lien-reserv p {
         line-height: 12px;
     }
-    
-    .formules-anniv h3, .organisation h3, .reservation h3  {
+
+    .formules-anniv h3,
+    .organisation h3,
+    .reservation h3 {
         letter-spacing: 4px;
         font-size: 1.3em !important;
     }
-    
-    
-    .formule-edv, .formule-ado, .formule-adulte {
+
+
+    .formule-edv,
+    .formule-ado,
+    .formule-adulte {
         height: 100%;
         width: 100%;
         padding: 8px;
@@ -362,11 +363,13 @@
         position: relative;
         top: 8px;
     }
-    .form-accro,  .form-laser,  .form-pass  {
+    .form-accro,
+    .form-laser,
+    .form-pass {
         height: 40px;
         padding: 15px;
         margin-bottom: 5px;
-    } 
+    }
     #mapid {
         position: relative;
         bottom: 70px;
@@ -374,10 +377,9 @@
     }
 }
 
-
 @media only screen and (max-width: 640px) {
-    
-        /*GROUPES*/
+
+    /*GROUPES*/
     .grp-ado-titre h2 {
         font-size: 20px !important;
     }
@@ -405,36 +407,39 @@
         position: relative;
         top: 8px;
     }
-    .form-accro,  .form-laser,  .form-pass  {
+    .form-accro,
+    .form-laser,
+    .form-pass {
         height: 40px;
         padding: 15px;
         margin-bottom: 5px;
-    } 
+    }
     #mapid {
         position: relative;
         bottom: 70px;
         height: 250px;
     }
-    
-    .formule-edv, .formule-ado, .formule-adulte {
+
+    .formule-edv,
+    .formule-ado,
+    .formule-adulte {
         height: 100%;
         width: 100%;
         padding: 8px;
         margin-bottom: 5px;
     }
     /* parcour */
-     .parcour_imgForest { 
+    .parcour_imgForest {
         height: 310px !important;
         width: 100% !important;
     }
-    
-    .parcours {
-    position: absolute;
-    top: 30%;
-    width: 87%;
 
+    .parcours {
+        position: absolute;
+        top: 30%;
+        width: 87%;
     }
-    
+
     /* formules et tarifs */
     .doc-formule,
     .doc-formule1,
@@ -444,42 +449,44 @@
         position: relative;
         width: 100%;
     }
-    
+
     .prix img {
-    width: 25%;
+        width: 25%;
     }
-    
-    .footer-doc-form p, .footer-doc-form1 p, .footer-doc-form2 p, .footer-doc-form3 p {
+
+    .footer-doc-form p,
+    .footer-doc-form1 p,
+    .footer-doc-form2 p,
+    .footer-doc-form3 p {
         font-size: 15px;
         font-family: inherit;
         letter-spacing: 1px;
     }
-    
-    .descrip-form, .descrip-form1, .descrip-form2, .descrip-form3, .descrip-form4 {
+
+    .descrip-form,
+    .descrip-form1,
+    .descrip-form2,
+    .descrip-form3,
+    .descrip-form4 {
         font-size: medium;
     }
-    
-    .formule, .formule1, .formule2, .formule3, .formule4 {
+
+    .formule,
+    .formule1,
+    .formule2,
+    .formule3,
+    .formule4 {
         font-size: 1.2em;
         text-align: center;
     }
     .documentation section {
         text-align: center;
     }
-    
+
     .doc-form-sec {
         margin-right: inherit;
     }
-    
-    
-    /* accueil */
-    .video_etat1 {
-        display: block;
-    }
-    
-    .play_video {
-        display: none;
-    }
+
     .font_img_bgVideo {
         height: inherit;
         top: 120px;
