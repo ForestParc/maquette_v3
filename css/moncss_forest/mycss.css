@@ -195,8 +195,7 @@
     }
 
     .logo_f2 img {
-        height: 50px;
-        width: 120px;
+        height: 45px;
     }
 
 
@@ -1080,6 +1079,9 @@
 
     .row-footer {
         width: 100%;
+        align-items: center;
+        align-content: center;
+        padding: 4px;
     }
 
     .footer {
@@ -1103,23 +1105,47 @@
     }
 
     .fa-facebook-square {
-        color: rgb(12, 192, 251);
+        color: rgb(2, 47, 97);
         position: relative;
-        top: 7px;
-    }
-
-    .fa-copyright {
-        position: relative;
-        color: #07a751;
-        top: 8px;
     }
 
     .fa-tripadvisor {
-        color: #da7c09;
+        color: #ffffff;
         position: relative;
-        top: 7px;
         padding-left: 5px;
     }
+
+    .fa-tripadvisor,
+    .fa-facebook-square {
+      background-color: #458c47b8;
+      padding: 3px;
+      border-radius: 7px;
+      box-shadow: 0 7px 5px 2px #09250ad6;
+}
+
+.fa-tripadvisor:hover {
+    background-color: #3e9e50;
+}
+.fa-facebook-square:hover {
+    background-color: #3e9e50;
+}
+
+.fa-tripadvisor:active {
+  background-color: #3e8e41;
+  box-shadow:  0 7px 5px 2px #0c1702;
+  transform: translateY(4px);
+}
+.fa-facebook-square:active {
+  background-color: #3e8e41;
+  box-shadow:  0 7px 5px 2px #0c1702;
+  transform: translateY(4px);
+}
+
+.normal {
+ color: #fff !important;   
+}
+
+/* fin footer */
 
     #email_nav {
         font-size: 1.2em;
@@ -1135,7 +1161,7 @@
     #actu-news {
         text-align: center;
         color: #000 !important;
-        margin-top: 15%;
+        margin: 10%;
     }
 
     .center_bg img {
@@ -1151,7 +1177,7 @@
         width: 650px;
     }
 
-    #fb_icon {
+    #icon_margin {
         margin-right: 15px;
     }
 
