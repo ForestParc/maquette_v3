@@ -1,6 +1,6 @@
 /* MOBILE RESPONSIVE IPHONE 5 */
 @media only screen and (max-width: 330px) {
-   
+
     .logo_f a div {
         background-image: url(http://i.imgur.com/iBjf40O.png);
         background-position: left;
@@ -75,10 +75,18 @@
     }
 }
  /*JUST FOR BACKGROUND MOBILE*/
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-height: 835px) {
+
     .bg_forest {
         background-color: dodgerblue !important;
         position: inherit;
         min-height: 1050px;
     }
+
+    .front_f {
+
+      display: none;
+
+    }
+
 }
