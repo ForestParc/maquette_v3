@@ -13,10 +13,6 @@
         src: url("../../fonts/Janda.ttf");
     }
 
-    @font-face {
-        font-family: "bosk";
-        src: url("../../fonts/Bosk1.ttf");
-    }
 
     html,
     body {
@@ -42,7 +38,7 @@
     h3 {
         color: #3A1B02;
         font-family: "geo" !important;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
     }
 
     h2 {
@@ -53,7 +49,7 @@
 
     .span12 h2 {
         position: relative;
-        top: 27px;
+        top: 25px;
     }
 
     .grp-ado-titre h2 {
@@ -276,6 +272,10 @@
         background-color: dodgerblue;
     }
 
+    .box-pages {
+    position: relative;
+    top: 60px;
+}
 
     /*// page 2 //*/
 
@@ -312,10 +312,6 @@
         height: 120px;
     }
 
-    .preload {
-        width: 60%;
-    }
-
     .img-saut {
         position: absolute;
         bottom: 0;
@@ -326,11 +322,16 @@
         padding: 2%;
     }
 
+/* img de l'accueil*/
+
+    .img-actu {
+    width: 250px;
+    }
+
     .actualite {
         display: flex;
         flex-direction: row;
         display: -webkit-flex;
-        display: flex;
         -webkit-align-items: center;
         align-items: center;
         -webkit-justify-content: center;
@@ -683,9 +684,9 @@
 
     /*PARCOURS*/
 
+
     .parcours {
         position: relative;
-        top: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -697,6 +698,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
+        text-align: center;
     }
 
     .parcours img {
@@ -709,25 +711,25 @@
         width: 850px !important;
     }
 
-    .flyer_laser {
-        text-align: center;
+   .flyer_laser {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
     }
 
     .laser {
         cursor: pointer;
-        margin-top: 5%;
         box-shadow: #292020 2px 4px 9px;
     }
 
     #bloc-carte {
-
         margin-top: 100px;
         margin-bottom: 100px;
     }
 
     .options {
         position: relative;
-        top: 50px;
         width: 70%;
         height: auto;
         border-radius: 2%;
@@ -793,7 +795,6 @@
 
     .options .organisation h3 {
         color: #311905;
-        !important;
         font-size: 2em;
         text-align: center;
     }
@@ -911,12 +912,11 @@
 
     .grp-titres {
         position: relative;
-        top: 18px;
     }
 
     .grp-titres h3 {
         position: relative;
-        top: 32px;
+        top: 70px;
         font-size: 1.6em;
     }
 
@@ -927,29 +927,9 @@
 
     .groupes {
         position: relative;
-        top: 60px;
         width: 70%;
         height: 550px;
         text-align: center;
-    }
-
-    .grp-ado-titre {
-        width: 100%;
-        padding: 1%;
-    }
-
-    .grp-ado-titre h3 {
-        position: relative;
-        top: 20px;
-        text-align: center;
-        font-family: "comic";
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-    .grp-ado-titre h4 {
-        position: relative;
-        top: 15px;
     }
 
     .grp-sec {
@@ -1159,14 +1139,6 @@
         margin-top: 15%;
     }
 
-    .flyer_laser {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-    }
-
     .center_bg img {
         border-radius: 10px;
         box-shadow: 1px 1px 15px #000;
@@ -1242,7 +1214,7 @@
 
     @media only screen and (max-width: 1340px) {
         .laser {
-            margin-top: 125px;
+            /*margin-top: 125px;*/
             width: 30%;
         }
         .header ul.nav > li a {
@@ -1341,7 +1313,7 @@
     @media only screen and (max-width: 1040px) {
 
         .laser {
-            margin-top: 175px;
+           /* margin-top: 175px;*/
             height: 720px;
             width: 400px;
         }
