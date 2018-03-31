@@ -1120,7 +1120,7 @@
         background-color: #19461a8c;
         padding: 3px;
         border-radius: 7px;
-        box-shadow: 0 7px 5px 2px #09250ad6;
+        box-shadow: 0 4px 5px 2px #09250ad6;
     }
 
     .fa-tripadvisor:hover {
@@ -1133,20 +1133,20 @@
 
     .fa-tripadvisor:active {
         background-color: #1031118c;
-        box-shadow: 0 7px 5px 2px #0c1702;
+        box-shadow: 0 4px 5px 2px #0c1702;
         transform: translateY(4px);
     }
 
     .fa-facebook-square:active {
         background-color: #1031118c;
-        box-shadow: 0 7px 5px 2px #0c1702;
+        box-shadow: 0 4px 5px 2px #0c1702;
         transform: translateY(4px);
     }
 
     .image0bis {
         background-color: #19461a8c;
         border-radius: 7px;
-        box-shadow: 0 7px 5px 1px #09250ad6;
+        box-shadow: 0 4px 5px 1px #09250ad6;
     }
 
     .image0bis:active {
@@ -1155,7 +1155,7 @@
         transform: translateY(4px);
     }
 
-   .btn_email {
+    .btn_email {
         color: antiquewhite !important;
         margin-right: 80px;
         padding: 4px;
@@ -1173,7 +1173,7 @@
 
     #email_nav {
         font-size: 1.2em;
-        
+
     }
 
     #actu-title {
@@ -1194,6 +1194,8 @@
     }
 
     .section-actu {
+        display: flex;
+        flex-direction: column;
         background-color: #ffffffa6;
         border-radius: 4px;
         padding: 4px;

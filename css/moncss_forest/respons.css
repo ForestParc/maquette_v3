@@ -53,16 +53,22 @@
     .actu {
         position: relative;
     }
+    
+    .img-actu img {
+        height: 240px;
+    }
 
     .actualite {
         flex-direction: column;
+        align-content: space-between;
     }
-    
+
     .section-actu {
-        height: inherit;
-        width: inherit;
+        height: 50%;
+        margin: 15px;
+        width: 80%;
     }
-    
+
     .nopaddingtop {
         padding-top: inherit;
     }
