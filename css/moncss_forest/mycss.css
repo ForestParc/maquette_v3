@@ -273,9 +273,9 @@
     }
 
     .box-pages {
-    position: relative;
-    top: 60px;
-}
+        position: relative;
+        top: 60px;
+    }
 
     /*// page 2 //*/
 
@@ -322,10 +322,10 @@
         padding: 2%;
     }
 
-/* img de l'accueil*/
+    /* img de l'accueil*/
 
-    .img-actu {
-    width: 250px;
+    .img-actu img {
+        height: 550px;
     }
 
     .actualite {
@@ -684,7 +684,6 @@
 
     /*PARCOURS*/
 
-
     .parcours {
         position: relative;
         display: flex;
@@ -711,7 +710,7 @@
         width: 850px !important;
     }
 
-   .flyer_laser {
+    .flyer_laser {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1313,7 +1312,7 @@
     @media only screen and (max-width: 1040px) {
 
         .laser {
-           /* margin-top: 175px;*/
+            /* margin-top: 175px;*/
             height: 720px;
             width: 400px;
         }
