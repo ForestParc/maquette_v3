@@ -1105,51 +1105,75 @@
     }
 
     .fa-facebook-square {
-        color: rgb(2, 47, 97);
+        color: rgb(0, 40, 84);
         position: relative;
     }
 
     .fa-tripadvisor {
-        color: #ffffff;
+        color: #ffe659;
         position: relative;
         padding-left: 5px;
     }
 
     .fa-tripadvisor,
     .fa-facebook-square {
-      background-color: #458c47b8;
-      padding: 3px;
-      border-radius: 7px;
-      box-shadow: 0 7px 5px 2px #09250ad6;
-}
+        background-color: #19461a8c;
+        padding: 3px;
+        border-radius: 7px;
+        box-shadow: 0 7px 5px 2px #09250ad6;
+    }
 
-.fa-tripadvisor:hover {
-    background-color: #3e9e50;
-}
-.fa-facebook-square:hover {
-    background-color: #3e9e50;
-}
+    .fa-tripadvisor:hover {
+        background-color: #3e9e50;
+    }
 
-.fa-tripadvisor:active {
-  background-color: #3e8e41;
-  box-shadow:  0 7px 5px 2px #0c1702;
-  transform: translateY(4px);
-}
-.fa-facebook-square:active {
-  background-color: #3e8e41;
-  box-shadow:  0 7px 5px 2px #0c1702;
-  transform: translateY(4px);
-}
+    .fa-facebook-square:hover {
+        background-color: #3e9e50;
+    }
 
-.normal {
- color: #fff !important;   
-}
+    .fa-tripadvisor:active {
+        background-color: #1031118c;
+        box-shadow: 0 7px 5px 2px #0c1702;
+        transform: translateY(4px);
+    }
 
-/* fin footer */
+    .fa-facebook-square:active {
+        background-color: #1031118c;
+        box-shadow: 0 7px 5px 2px #0c1702;
+        transform: translateY(4px);
+    }
+
+    .image0bis {
+        background-color: #19461a8c;
+        border-radius: 7px;
+        box-shadow: 0 7px 5px 1px #09250ad6;
+    }
+
+    .image0bis:active {
+        background-color: #1031118c;
+        box-shadow: 0 7px 5px 2px #0c1702;
+        transform: translateY(4px);
+    }
+
+   .btn_email {
+        color: antiquewhite !important;
+        margin-right: 80px;
+        padding: 4px;
+        background-color: #0025020f;
+        border-radius: 7px;
+        box-shadow: 0 3px 12px 3px #09250aa8;
+    }
+
+    .btn_email:active {
+        transform: translateY(3px);
+    }
+
+
+    /* fin footer */
 
     #email_nav {
         font-size: 1.2em;
-        margin-right: 50px;
+        
     }
 
     #actu-title {
