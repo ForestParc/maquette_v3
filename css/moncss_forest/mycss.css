@@ -699,14 +699,9 @@
         text-align: center;
     }
 
-    .parcours img {
-        height: 50px;
-        width: 150px;
-    }
-
     .parcour_imgForest {
-        height: 520px !important;
-        width: 850px !important;
+        height: 600px;
+        width: 870px;
     }
 
     .flyer_laser {
@@ -752,7 +747,7 @@
 
     .options a {
         color: #FF6620 !important;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
         font-family: "comic";
     }
@@ -814,7 +809,7 @@
     }
 
     .options .reservation a {
-        text-shadow: 1px 1px 2px #000;
+        text-shadow: 2px 1px 2px #fff;
     }
 
     .formules-anniv {
